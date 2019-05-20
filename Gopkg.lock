@@ -65,7 +65,7 @@
 
 [[projects]]
   digest = "1:a4261d199fb200222fa77f78c343184ddcfd6ebedc71fdd966df3e7e76a1b95b"
-  name = "github.com/DataDog/viper"
+  name = "github.com/spf13/viper"
   packages = ["."]
   pruneopts = ""
   revision = "0d6ea091c7f3660c643588f92960e87b0601ab74"
@@ -1974,7 +1974,7 @@
     "github.com/DataDog/gopsutil/mem",
     "github.com/DataDog/gopsutil/process",
     "github.com/DataDog/mmh3",
-    "github.com/DataDog/viper",
+    "github.com/spf13/viper",
     "github.com/DataDog/zstd",
     "github.com/DataDog/zstd.v0.5",
     "github.com/Microsoft/go-winio",

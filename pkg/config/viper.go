@@ -13,7 +13,7 @@ import (
 
 	"github.com/DataDog/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/viper"
+	"github.com/spf13/viper"
 	"github.com/spf13/afero"
 	"github.com/spf13/pflag"
 )
