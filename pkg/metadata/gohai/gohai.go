@@ -12,8 +12,8 @@ import (
 	"github.com/DataDog/gohai/network"
 	"github.com/DataDog/gohai/platform"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // GetPayload builds a payload of every metadata collected with gohai except processes metadata.

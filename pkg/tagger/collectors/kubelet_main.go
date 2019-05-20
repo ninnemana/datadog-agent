@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/errors"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/kubelet"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/errors"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/kubelet"
 )
 
 const (

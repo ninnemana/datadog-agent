@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/config"
-	"github.com/DataDog/datadog-agent/pkg/trace/info"
-	"github.com/DataDog/datadog-agent/pkg/trace/metrics"
-	"github.com/DataDog/datadog-agent/pkg/trace/stats"
-	"github.com/DataDog/datadog-agent/pkg/trace/test/testutil"
-	writerconfig "github.com/DataDog/datadog-agent/pkg/trace/writer/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/info"
+	"github.com/ninnemana/datadog-agent/pkg/trace/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/trace/stats"
+	"github.com/ninnemana/datadog-agent/pkg/trace/test/testutil"
+	writerconfig "github.com/ninnemana/datadog-agent/pkg/trace/writer/config"
 	"github.com/stretchr/testify/assert"
 )
 

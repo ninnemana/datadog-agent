@@ -15,7 +15,7 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/DataDog/datadog-agent/pkg/tagger/utils"
+	"github.com/ninnemana/datadog-agent/pkg/tagger/utils"
 )
 
 func TestDockerRecordsFromInspect(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"os/user"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	acl "github.com/hectane/go-acl"
 	"golang.org/x/sys/windows"
 )

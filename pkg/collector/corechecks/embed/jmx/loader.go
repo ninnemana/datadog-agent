@@ -10,10 +10,10 @@ package jmx
 import (
 	"errors"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/collector/check"
-	"github.com/DataDog/datadog-agent/pkg/collector/loaders"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/collector/check"
+	"github.com/ninnemana/datadog-agent/pkg/collector/loaders"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
 	yaml "gopkg.in/yaml.v2"
 )

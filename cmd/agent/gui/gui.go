@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/common"
-	"github.com/DataDog/datadog-agent/pkg/api/security"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/cmd/agent/common"
+	"github.com/ninnemana/datadog-agent/pkg/api/security"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	"github.com/gorilla/mux"
 	"github.com/urfave/negroni"
 )

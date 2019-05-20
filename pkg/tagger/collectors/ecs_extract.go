@@ -10,9 +10,9 @@ package collectors
 import (
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/tagger/utils"
-	"github.com/DataDog/datadog-agent/pkg/util/docker"
-	ecsutil "github.com/DataDog/datadog-agent/pkg/util/ecs"
+	"github.com/ninnemana/datadog-agent/pkg/tagger/utils"
+	"github.com/ninnemana/datadog-agent/pkg/util/docker"
+	ecsutil "github.com/ninnemana/datadog-agent/pkg/util/ecs"
 )
 
 func (c *ECSCollector) parseTasks(tasks_list ecsutil.TasksV1Response, targetDockerID string) ([]*TagInfo, error) {

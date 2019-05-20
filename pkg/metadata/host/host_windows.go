@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/metadata/common"
-	"github.com/DataDog/datadog-agent/pkg/util/cache"
-	"github.com/DataDog/datadog-agent/pkg/util/winutil"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/common"
+	"github.com/ninnemana/datadog-agent/pkg/util/cache"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil"
 	"github.com/DataDog/gohai/cpu"
 	"github.com/DataDog/gohai/platform"
 	"github.com/shirou/w32"

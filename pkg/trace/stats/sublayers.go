@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
-	"github.com/DataDog/datadog-agent/pkg/trace/traceutil"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/traceutil"
 )
 
 // SublayerValue is just a span-metric placeholder for a given sublayer val

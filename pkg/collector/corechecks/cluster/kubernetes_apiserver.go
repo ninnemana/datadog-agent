@@ -16,16 +16,16 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator"
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/collector/check"
-	core "github.com/DataDog/datadog-agent/pkg/collector/corechecks"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/apiserver"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/apiserver/leaderelection"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/clustername"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/collector/check"
+	core "github.com/ninnemana/datadog-agent/pkg/collector/corechecks"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/apiserver"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/apiserver/leaderelection"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/clustername"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // Covers the Control Plane service check and the in memory pod metadata.

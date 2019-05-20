@@ -10,14 +10,14 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
 
-	core "github.com/DataDog/datadog-agent/pkg/collector/corechecks"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
-	"github.com/DataDog/datadog-agent/pkg/util/winutil"
-	"github.com/DataDog/datadog-agent/pkg/util/winutil/pdhutil"
+	core "github.com/ninnemana/datadog-agent/pkg/collector/corechecks"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil/pdhutil"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator"
 )
 
 // For testing purpose

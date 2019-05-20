@@ -10,8 +10,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/logs/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // FIXME: Changed chanSize to a constant once we refactor packages

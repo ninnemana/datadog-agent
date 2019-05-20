@@ -6,9 +6,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/metrics"
-	"github.com/DataDog/datadog-agent/pkg/trace/sampler"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/trace/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/trace/sampler"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const (

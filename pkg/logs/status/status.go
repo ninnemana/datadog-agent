@@ -9,8 +9,8 @@ import (
 	"expvar"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/metrics"
 )
 
 var (

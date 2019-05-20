@@ -15,13 +15,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator"
-	"github.com/DataDog/datadog-agent/pkg/collector/check"
-	"github.com/DataDog/datadog-agent/pkg/collector/scheduler"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator"
+	"github.com/ninnemana/datadog-agent/pkg/collector/check"
+	"github.com/ninnemana/datadog-agent/pkg/collector/scheduler"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const (

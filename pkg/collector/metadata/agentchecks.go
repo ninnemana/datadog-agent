@@ -8,9 +8,9 @@ package metadata
 import (
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/collector/metadata/agentchecks"
-	md "github.com/DataDog/datadog-agent/pkg/metadata"
-	"github.com/DataDog/datadog-agent/pkg/serializer"
+	"github.com/ninnemana/datadog-agent/pkg/collector/metadata/agentchecks"
+	md "github.com/ninnemana/datadog-agent/pkg/metadata"
+	"github.com/ninnemana/datadog-agent/pkg/serializer"
 )
 
 // AgentChecksCollector fills and sends the old metadata payload used in the

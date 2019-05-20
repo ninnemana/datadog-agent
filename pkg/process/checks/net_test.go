@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/process/config"
-	"github.com/DataDog/datadog-agent/pkg/process/model"
+	"github.com/ninnemana/datadog-agent/pkg/process/config"
+	"github.com/ninnemana/datadog-agent/pkg/process/model"
 	"github.com/stretchr/testify/assert"
 )
 

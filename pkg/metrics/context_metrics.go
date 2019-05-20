@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/ckey"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/ckey"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // ContextMetrics stores all the metrics by context key

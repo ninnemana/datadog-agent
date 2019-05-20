@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/util/common"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/common"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const payloadVersion = "1.0"

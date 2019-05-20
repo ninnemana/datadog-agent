@@ -14,8 +14,8 @@ import (
 	"github.com/gogo/protobuf/proto"
 
 	agentpayload "github.com/DataDog/agent-payload/gogen"
-	"github.com/DataDog/datadog-agent/pkg/serializer/marshaler"
-	"github.com/DataDog/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/serializer/marshaler"
+	"github.com/ninnemana/datadog-agent/pkg/util"
 )
 
 // EventPriority represents the priority of an event

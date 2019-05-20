@@ -6,9 +6,9 @@
 package aggregator
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
 )
 
 const checksSourceTypeName = "System"

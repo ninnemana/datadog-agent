@@ -20,15 +20,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/errors"
-	"github.com/DataDog/datadog-agent/pkg/util/cache"
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
-	"github.com/DataDog/datadog-agent/pkg/util/docker"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/clustername"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
-	"github.com/DataDog/datadog-agent/pkg/util/retry"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/errors"
+	"github.com/ninnemana/datadog-agent/pkg/util/cache"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/docker"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/clustername"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/retry"
 )
 
 const (

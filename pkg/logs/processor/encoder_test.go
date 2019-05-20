@@ -12,9 +12,9 @@ import (
 
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
-	"github.com/DataDog/datadog-agent/pkg/logs/pb"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
+	"github.com/ninnemana/datadog-agent/pkg/logs/pb"
 	"github.com/stretchr/testify/assert"
 )
 

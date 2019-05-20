@@ -18,8 +18,8 @@ import (
 
 	"golang.org/x/net/proxy"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/status"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/logs/status"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const (

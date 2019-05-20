@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 )

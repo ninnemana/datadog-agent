@@ -5,8 +5,8 @@ package obfuscate
 import (
 	"bytes"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/config"
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
 )
 
 // Obfuscator quantizes and obfuscates spans. The obfuscator is not safe for

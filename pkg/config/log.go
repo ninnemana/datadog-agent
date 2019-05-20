@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	"github.com/cihub/seelog"
 )
 

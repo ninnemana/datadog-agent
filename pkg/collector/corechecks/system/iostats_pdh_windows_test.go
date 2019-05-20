@@ -9,8 +9,8 @@ package system
 import (
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
-	pdhtest "github.com/DataDog/datadog-agent/pkg/util/winutil/pdhutil"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
+	pdhtest "github.com/ninnemana/datadog-agent/pkg/util/winutil/pdhutil"
 )
 
 func testGetDriveType(drive string) uintptr {

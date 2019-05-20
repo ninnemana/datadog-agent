@@ -17,14 +17,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/dogstatsd/listeners"
-	"github.com/DataDog/datadog-agent/pkg/metrics"
-	"github.com/DataDog/datadog-agent/pkg/status/health"
-	"github.com/DataDog/datadog-agent/pkg/tagger"
-	"github.com/DataDog/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/dogstatsd/listeners"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/status/health"
+	"github.com/ninnemana/datadog-agent/pkg/tagger"
+	"github.com/ninnemana/datadog-agent/pkg/util"
 )
 
 var (

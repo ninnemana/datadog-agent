@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
 	"github.com/shirou/gopsutil/disk"
 )
 

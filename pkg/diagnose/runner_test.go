@@ -10,7 +10,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/diagnose/diagnosis"
+	"github.com/ninnemana/datadog-agent/pkg/diagnose/diagnosis"
 
 	"github.com/stretchr/testify/assert"
 )

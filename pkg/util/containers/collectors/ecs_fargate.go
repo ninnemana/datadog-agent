@@ -10,8 +10,8 @@ package collectors
 import (
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
-	"github.com/DataDog/datadog-agent/pkg/util/ecs"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/ecs"
 )
 
 const (

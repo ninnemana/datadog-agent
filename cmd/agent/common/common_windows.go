@@ -15,10 +15,10 @@ import (
 
 	"path/filepath"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/config"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
-	"github.com/DataDog/datadog-agent/pkg/util/winutil"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil"
 	"github.com/cihub/seelog"
 	"golang.org/x/sys/windows/registry"
 	yaml "gopkg.in/yaml.v2"

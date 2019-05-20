@@ -6,15 +6,15 @@
 package container
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/logs/auditor"
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/input/docker"
-	"github.com/DataDog/datadog-agent/pkg/logs/input/kubernetes"
-	"github.com/DataDog/datadog-agent/pkg/logs/pipeline"
-	"github.com/DataDog/datadog-agent/pkg/logs/restart"
-	"github.com/DataDog/datadog-agent/pkg/logs/service"
+	"github.com/ninnemana/datadog-agent/pkg/logs/auditor"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/input/docker"
+	"github.com/ninnemana/datadog-agent/pkg/logs/input/kubernetes"
+	"github.com/ninnemana/datadog-agent/pkg/logs/pipeline"
+	"github.com/ninnemana/datadog-agent/pkg/logs/restart"
+	"github.com/ninnemana/datadog-agent/pkg/logs/service"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // NewLauncher returns a new container launcher depending on the environment.

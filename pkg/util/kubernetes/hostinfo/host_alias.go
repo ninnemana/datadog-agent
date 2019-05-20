@@ -10,8 +10,8 @@ package hostinfo
 import (
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/util"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/kubelet"
+	"github.com/ninnemana/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/kubelet"
 )
 
 // GetHostAlias uses the "kubelet" hostname provider to fetch the kubernetes alias

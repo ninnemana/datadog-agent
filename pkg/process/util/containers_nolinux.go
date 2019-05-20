@@ -3,7 +3,7 @@
 package util
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
 )
 
 // SetContainerSource is only implemented on Linux

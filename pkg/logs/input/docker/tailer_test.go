@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
-	"github.com/DataDog/datadog-agent/pkg/logs/tag"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
+	"github.com/ninnemana/datadog-agent/pkg/logs/tag"
 	"github.com/stretchr/testify/assert"
 )
 

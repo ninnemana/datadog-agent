@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
-	"github.com/DataDog/datadog-agent/pkg/trace/stats"
-	"github.com/DataDog/datadog-agent/pkg/trace/test/testutil"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/stats"
+	"github.com/ninnemana/datadog-agent/pkg/trace/test/testutil"
 )
 
 // The below example shows a common use-case scenario for the runner.

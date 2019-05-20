@@ -14,12 +14,12 @@ import (
 
 	log "github.com/cihub/seelog"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
-	"github.com/DataDog/datadog-agent/pkg/collector/check"
-	"github.com/DataDog/datadog-agent/pkg/collector/corechecks/containers"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/tagger"
-	"github.com/DataDog/datadog-agent/test/integration/utils"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
+	"github.com/ninnemana/datadog-agent/pkg/collector/check"
+	"github.com/ninnemana/datadog-agent/pkg/collector/corechecks/containers"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/tagger"
+	"github.com/ninnemana/datadog-agent/test/integration/utils"
 )
 
 var retryDelay = flag.Int("retry-delay", 1, "time to wait between retries (default 1 second)")

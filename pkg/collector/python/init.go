@@ -17,13 +17,13 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util/cache"
-	"github.com/DataDog/datadog-agent/pkg/util/executable"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
-	"github.com/DataDog/datadog-agent/pkg/version"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util/cache"
+	"github.com/ninnemana/datadog-agent/pkg/util/executable"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/version"
 )
 
 /*

@@ -35,7 +35,7 @@ that is extensively used in this project to orchestrate builds and test
 runs.
 
 Though you may install invoke in a variety of way we suggest you use
-the provided [requirements](https://github.com/DataDog/datadog-agent/blob/master/requirements.txt)
+the provided [requirements](https://github.com/ninnemana/datadog-agent/blob/master/requirements.txt)
 file and `pip`:
 
 ```bash
@@ -62,9 +62,9 @@ environment and ensure a clean system python.
 - Install the virtualenv module:
 ```pip2 install virtualenv```
 - Create the virtual environment:
-```virtualenv $GOPATH/src/github.com/DataDog/datadog-agent/venv```
+```virtualenv $GOPATH/src/github.com/ninnemana/datadog-agent/venv```
 - Specify the path when building the agent:
-```invoke agent.build --python-home-2=$GOPATH/src/github.com/DataDog/datadog-agent/venv```
+```invoke agent.build --python-home-2=$GOPATH/src/github.com/ninnemana/datadog-agent/venv```
 
 If you are using python 3 instead (or switching between python versions), you can also
 add `--python-home-3=<path>` pointing to a python3 virtual environment.

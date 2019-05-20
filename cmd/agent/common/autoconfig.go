@@ -8,14 +8,14 @@ package common
 import (
 	"path/filepath"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery"
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/providers"
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/scheduler"
-	"github.com/DataDog/datadog-agent/pkg/collector"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/logs"
-	"github.com/DataDog/datadog-agent/pkg/tagger"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/providers"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/scheduler"
+	"github.com/ninnemana/datadog-agent/pkg/collector"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs"
+	"github.com/ninnemana/datadog-agent/pkg/tagger"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // SetupAutoConfig configures the global AutoConfig:

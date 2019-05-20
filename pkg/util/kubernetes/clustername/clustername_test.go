@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/config"
 )
 
 func TestGetClusterName(t *testing.T) {

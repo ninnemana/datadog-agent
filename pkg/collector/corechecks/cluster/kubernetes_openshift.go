@@ -15,9 +15,9 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/apiserver"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/apiserver"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const (

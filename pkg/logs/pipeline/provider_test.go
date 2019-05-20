@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/DataDog/datadog-agent/pkg/status/health"
+	"github.com/ninnemana/datadog-agent/pkg/status/health"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/auditor"
-	"github.com/DataDog/datadog-agent/pkg/logs/client"
+	"github.com/ninnemana/datadog-agent/pkg/logs/auditor"
+	"github.com/ninnemana/datadog-agent/pkg/logs/client"
 )
 
 type ProviderTestSuite struct {

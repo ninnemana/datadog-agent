@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/client/mock"
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/status"
+	"github.com/ninnemana/datadog-agent/pkg/logs/client/mock"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/status"
 )
 
 func newConnectionManagerForAddr(addr net.Addr) *ConnectionManager {

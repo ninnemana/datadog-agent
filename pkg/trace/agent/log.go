@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	coreconfig "github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/trace/config"
-	"github.com/DataDog/datadog-agent/pkg/trace/watchdog"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	coreconfig "github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/watchdog"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
 	"github.com/cihub/seelog"
 )
@@ -205,7 +205,7 @@ func setupLogger(cfg *config.AgentConfig) error {
 	logLevel := strings.ToLower(cfg.LogLevel)
 	if logLevel == "warning" {
 		// to match core agent:
-		// https://github.com/DataDog/datadog-agent/blob/6f2d901aeb19f0c0a4e09f149c7cc5a084d2f708/pkg/config/seelog.go#L74-L76
+		// https://github.com/ninnemana/datadog-agent/blob/6f2d901aeb19f0c0a4e09f149c7cc5a084d2f708/pkg/config/seelog.go#L74-L76
 		logLevel = "warn"
 	}
 	minLogLvl, ok := seelog.LogLevelFromString(logLevel)

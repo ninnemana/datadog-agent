@@ -23,12 +23,12 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/DataDog/datadog-agent/pkg/clusteragent/custommetrics"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/errors"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/apiserver/common"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/hpa"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent/custommetrics"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/errors"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/apiserver/common"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/hpa"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const (

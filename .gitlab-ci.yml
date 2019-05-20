@@ -16,7 +16,7 @@ stages:
 variables:
   # The SRC_PATH is in the GOPATH of the builders which
   # currently is /go
-  SRC_PATH: /go/src/github.com/DataDog/datadog-agent
+  SRC_PATH: /go/src/github.com/ninnemana/datadog-agent
   # Directory in which we execute the omnibus build.
   # For an unknown reason, it does not go well with
   # a ruby dependency if we build directly into $CI_PROJECT_DIR/.omnibus
@@ -196,9 +196,9 @@ run_security_scan_test:
   before_script:
     # this image isn't built in the datadog-agent-builders repo
     # it doesn't have invoke so we install the dependencies without invoke
-    - mkdir -p $GOPATH/src/github.com/DataDog/datadog-agent
-    - rsync -azr --delete ./ $GOPATH/src/github.com/DataDog/datadog-agent
-    - cd $GOPATH/src/github.com/DataDog/datadog-agent
+    - mkdir -p $GOPATH/src/github.com/ninnemana/datadog-agent
+    - rsync -azr --delete ./ $GOPATH/src/github.com/ninnemana/datadog-agent
+    - cd $GOPATH/src/github.com/ninnemana/datadog-agent
     - pip install -r requirements.txt
     - inv deps
   script:

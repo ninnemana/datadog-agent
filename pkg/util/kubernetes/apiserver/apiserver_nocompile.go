@@ -10,8 +10,8 @@ package apiserver
 import (
 	"errors"
 
-	apiv1 "github.com/DataDog/datadog-agent/pkg/clusteragent/api/v1"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	apiv1 "github.com/ninnemana/datadog-agent/pkg/clusteragent/api/v1"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 var (

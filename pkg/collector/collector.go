@@ -10,11 +10,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/collector/check"
-	"github.com/DataDog/datadog-agent/pkg/collector/runner"
-	"github.com/DataDog/datadog-agent/pkg/collector/scheduler"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/collector/check"
+	"github.com/ninnemana/datadog-agent/pkg/collector/runner"
+	"github.com/ninnemana/datadog-agent/pkg/collector/scheduler"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const (
@@ -127,7 +127,7 @@ func (c *Collector) ReloadCheck(id check.ID, config, initConfig integration.Data
 	}
 
 	// do we know this check instance?
-	// BUG(massi): we could create the Check if it doesn't exist, see https://github.com/DataDog/datadog-agent/pull/148
+	// BUG(massi): we could create the Check if it doesn't exist, see https://github.com/ninnemana/datadog-agent/pull/148
 	// for reference
 	if !c.find(id) {
 		return fmt.Errorf("cannot find a check with ID %s", id)

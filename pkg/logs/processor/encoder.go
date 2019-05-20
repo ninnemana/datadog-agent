@@ -11,10 +11,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
-	"github.com/DataDog/datadog-agent/pkg/logs/pb"
-	"github.com/DataDog/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
+	"github.com/ninnemana/datadog-agent/pkg/logs/pb"
+	"github.com/ninnemana/datadog-agent/pkg/util"
 )
 
 // Encoder turns a message into a raw byte array ready to be sent.

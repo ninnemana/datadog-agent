@@ -10,10 +10,10 @@ package journald
 import (
 	"github.com/coreos/go-systemd/sdjournal"
 
-	"github.com/DataDog/datadog-agent/pkg/tagger"
-	"github.com/DataDog/datadog-agent/pkg/tagger/collectors"
-	dockerutil "github.com/DataDog/datadog-agent/pkg/util/docker"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/tagger"
+	"github.com/ninnemana/datadog-agent/pkg/tagger/collectors"
+	dockerutil "github.com/ninnemana/datadog-agent/pkg/util/docker"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // containerIDKey represents the key of the container identifier in a journal entry.

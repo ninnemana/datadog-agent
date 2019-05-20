@@ -14,8 +14,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/collector/python"
-	"github.com/DataDog/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/collector/python"
+	"github.com/ninnemana/datadog-agent/pkg/config"
 )
 
 /*

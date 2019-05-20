@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/api/response"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/tagger/collectors"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/cmd/agent/api/response"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/tagger/collectors"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // defaultTagger is the shared tagger instance backing the global Tag and Init functions

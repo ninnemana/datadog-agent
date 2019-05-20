@@ -3,7 +3,7 @@ package statsd
 import (
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/process/config"
+	"github.com/ninnemana/datadog-agent/pkg/process/config"
 	"github.com/DataDog/datadog-go/statsd"
 )
 

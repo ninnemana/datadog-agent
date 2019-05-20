@@ -8,8 +8,8 @@ package listeners
 import (
 	"errors"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // ID is the representation of the unique ID of a Service

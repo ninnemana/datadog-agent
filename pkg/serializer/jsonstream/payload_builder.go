@@ -10,9 +10,9 @@ package jsonstream
 import (
 	"bytes"
 
-	"github.com/DataDog/datadog-agent/pkg/forwarder"
-	"github.com/DataDog/datadog-agent/pkg/serializer/marshaler"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/forwarder"
+	"github.com/ninnemana/datadog-agent/pkg/serializer/marshaler"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // PayloadBuilder is used to build payloads. PayloadBuilder allocates memory based

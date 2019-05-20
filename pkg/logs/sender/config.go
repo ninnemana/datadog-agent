@@ -10,9 +10,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/client"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/client"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const endpointPrefix = "agent-intake.logs."

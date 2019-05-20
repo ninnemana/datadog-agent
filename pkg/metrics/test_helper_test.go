@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/quantile"
+	"github.com/ninnemana/datadog-agent/pkg/quantile"
 	"github.com/stretchr/testify/assert"
 )
 

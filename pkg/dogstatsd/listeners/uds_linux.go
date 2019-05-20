@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/DataDog/datadog-agent/pkg/util/cache"
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/cache"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
 )
 
 const (

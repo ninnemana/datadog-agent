@@ -11,15 +11,15 @@ import (
 	yaml "gopkg.in/yaml.v2"
 	pb "k8s.io/kubernetes/pkg/kubelet/apis/cri/runtime/v1alpha2"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator"
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/collector/check"
-	core "github.com/DataDog/datadog-agent/pkg/collector/corechecks"
-	"github.com/DataDog/datadog-agent/pkg/tagger"
-	"github.com/DataDog/datadog-agent/pkg/tagger/collectors"
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
-	"github.com/DataDog/datadog-agent/pkg/util/containers/cri"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/collector/check"
+	core "github.com/ninnemana/datadog-agent/pkg/collector/corechecks"
+	"github.com/ninnemana/datadog-agent/pkg/tagger"
+	"github.com/ninnemana/datadog-agent/pkg/tagger/collectors"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers/cri"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const (

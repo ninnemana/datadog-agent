@@ -11,13 +11,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
-	dockerUtil "github.com/DataDog/datadog-agent/pkg/util/docker"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
+	dockerUtil "github.com/ninnemana/datadog-agent/pkg/util/docker"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	"github.com/docker/docker/api/types"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/service"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/service"
 )
 
 // configPath refers to the configuration that can be passed over a docker label,

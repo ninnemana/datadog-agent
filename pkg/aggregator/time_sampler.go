@@ -6,10 +6,10 @@
 package aggregator
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/aggregator/ckey"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/ckey"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const defaultExpiry = 300.0 // number of seconds after which contexts are expired

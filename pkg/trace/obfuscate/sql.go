@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const sqlQueryTag = "sql.query"

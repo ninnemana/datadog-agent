@@ -8,7 +8,7 @@
 package windowsevent
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // Start does not do much

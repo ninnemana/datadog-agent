@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/test/testutil"
-	writerconfig "github.com/DataDog/datadog-agent/pkg/trace/writer/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/test/testutil"
+	writerconfig "github.com/ninnemana/datadog-agent/pkg/trace/writer/config"
 )
 
 // payloadConstructedHandlerArgs encodes the arguments passed to a PayloadConstructedHandler call.

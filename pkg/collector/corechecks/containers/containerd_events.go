@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	ctrUtil "github.com/DataDog/datadog-agent/pkg/util/containerd"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	ctrUtil "github.com/ninnemana/datadog-agent/pkg/util/containerd"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/api/events"
 	containerdevents "github.com/containerd/containerd/events"

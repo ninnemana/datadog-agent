@@ -10,7 +10,7 @@ package kubelet
 import (
 	"encoding/json"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 type creatorRef struct {

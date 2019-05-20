@@ -5,7 +5,7 @@ package netlink
 import (
 	"os"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // getGlobalNetNSFD guesses the file descriptor of the root net NS

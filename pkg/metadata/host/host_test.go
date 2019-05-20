@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/metadata/host/container"
-	"github.com/DataDog/datadog-agent/pkg/util/cache"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/host/container"
+	"github.com/ninnemana/datadog-agent/pkg/util/cache"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/host"
 	"github.com/stretchr/testify/assert"

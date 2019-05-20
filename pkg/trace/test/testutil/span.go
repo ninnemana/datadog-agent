@@ -8,9 +8,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
-	"github.com/DataDog/datadog-agent/pkg/trace/stats"
-	"github.com/DataDog/datadog-agent/pkg/trace/traceutil"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/stats"
+	"github.com/ninnemana/datadog-agent/pkg/trace/traceutil"
 )
 
 // YearNS is the number of nanoseconds in a year

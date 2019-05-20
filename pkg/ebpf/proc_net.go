@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const tcpListen = 10

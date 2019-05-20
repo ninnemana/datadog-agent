@@ -11,11 +11,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/api/response"
+	"github.com/ninnemana/datadog-agent/cmd/agent/api/response"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/common"
-	"github.com/DataDog/datadog-agent/pkg/api/util"
-	"github.com/DataDog/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/cmd/agent/common"
+	"github.com/ninnemana/datadog-agent/pkg/api/util"
+	"github.com/ninnemana/datadog-agent/pkg/config"
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"

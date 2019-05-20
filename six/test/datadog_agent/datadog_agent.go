@@ -8,7 +8,7 @@ import (
 	"strings"
 	"unsafe"
 
-	common "github.com/DataDog/datadog-agent/six/test/common"
+	common "github.com/ninnemana/datadog-agent/six/test/common"
 	yaml "gopkg.in/yaml.v2"
 )
 

@@ -10,7 +10,7 @@ import (
 
 	log "github.com/cihub/seelog"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
 )
 
 func init() {

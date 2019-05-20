@@ -18,13 +18,13 @@ import (
 
 	"github.com/mholt/archiver"
 
-	apiv1 "github.com/DataDog/datadog-agent/pkg/clusteragent/api/v1"
-	"github.com/DataDog/datadog-agent/pkg/clusteragent/custommetrics"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/status"
-	"github.com/DataDog/datadog-agent/pkg/util"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/apiserver"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	apiv1 "github.com/ninnemana/datadog-agent/pkg/clusteragent/api/v1"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent/custommetrics"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/status"
+	"github.com/ninnemana/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/apiserver"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // CreateDCAArchive packages up the files

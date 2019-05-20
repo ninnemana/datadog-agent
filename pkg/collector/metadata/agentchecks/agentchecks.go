@@ -8,13 +8,13 @@ package agentchecks
 import (
 	"encoding/json"
 
-	"github.com/DataDog/datadog-agent/pkg/collector"
-	"github.com/DataDog/datadog-agent/pkg/collector/runner"
-	"github.com/DataDog/datadog-agent/pkg/metadata/common"
-	"github.com/DataDog/datadog-agent/pkg/metadata/externalhost"
-	"github.com/DataDog/datadog-agent/pkg/metadata/host"
-	"github.com/DataDog/datadog-agent/pkg/util"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/collector"
+	"github.com/ninnemana/datadog-agent/pkg/collector/runner"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/common"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/externalhost"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/host"
+	"github.com/ninnemana/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // GetPayload builds a payload of all the agentchecks metadata

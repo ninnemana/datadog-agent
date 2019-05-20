@@ -8,7 +8,7 @@
 package containerd
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/diagnose/diagnosis"
+	"github.com/ninnemana/datadog-agent/pkg/diagnose/diagnosis"
 )
 
 func init() {

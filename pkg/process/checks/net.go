@@ -6,12 +6,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/ebpf"
-	"github.com/DataDog/datadog-agent/pkg/ebpf/netlink"
-	"github.com/DataDog/datadog-agent/pkg/process/config"
-	"github.com/DataDog/datadog-agent/pkg/process/model"
-	"github.com/DataDog/datadog-agent/pkg/process/net"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/ebpf"
+	"github.com/ninnemana/datadog-agent/pkg/ebpf/netlink"
+	"github.com/ninnemana/datadog-agent/pkg/process/config"
+	"github.com/ninnemana/datadog-agent/pkg/process/model"
+	"github.com/ninnemana/datadog-agent/pkg/process/net"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 var (

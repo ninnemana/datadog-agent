@@ -20,13 +20,13 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	_ "github.com/DataDog/datadog-agent/pkg/collector/corechecks/cluster"
-	_ "github.com/DataDog/datadog-agent/pkg/collector/corechecks/net"
-	_ "github.com/DataDog/datadog-agent/pkg/collector/corechecks/system"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	_ "github.com/ninnemana/datadog-agent/pkg/collector/corechecks/cluster"
+	_ "github.com/ninnemana/datadog-agent/pkg/collector/corechecks/net"
+	_ "github.com/ninnemana/datadog-agent/pkg/collector/corechecks/system"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/datadog-agent/cmd/cluster-agent/app"
+	"github.com/ninnemana/datadog-agent/cmd/cluster-agent/app"
 )
 
 func main() {

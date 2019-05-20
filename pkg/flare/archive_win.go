@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"unsafe"
 
-	"github.com/DataDog/datadog-agent/pkg/util/winutil"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil"
 	"golang.org/x/sys/windows"
 )
 

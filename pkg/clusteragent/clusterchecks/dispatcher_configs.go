@@ -8,8 +8,8 @@
 package clusterchecks
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/clusteragent/clusterchecks/types"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent/clusterchecks/types"
 )
 
 // getAllConfigs returns all configurations known to the store, for reporting
@@ -66,7 +66,7 @@ func (d *dispatcher) addConfig(config integration.Config, targetNodeName string)
 	// Remove config from previous node if found
 	// We double-check the config actually changed nodes, to
 	// prevent de-scheduling the check we just scheduled.
-	// See https://github.com/DataDog/datadog-agent/pull/3023
+	// See https://github.com/ninnemana/datadog-agent/pull/3023
 	if foundCurrent && currentNode != targetNode {
 		currentNode.Lock()
 		currentNode.removeConfig(digest)

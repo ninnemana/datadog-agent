@@ -9,9 +9,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/metadata/resources"
-	"github.com/DataDog/datadog-agent/pkg/serializer"
-	"github.com/DataDog/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/resources"
+	"github.com/ninnemana/datadog-agent/pkg/serializer"
+	"github.com/ninnemana/datadog-agent/pkg/util"
 )
 
 // ResourcesCollector sends the old metadata payload used in the

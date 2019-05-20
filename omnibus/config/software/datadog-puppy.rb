@@ -12,7 +12,7 @@ license "Apache-2.0"
 license_file "../LICENSE"
 
 source path: '..'
-relative_path 'src/github.com/DataDog/datadog-agent'
+relative_path 'src/github.com/ninnemana/datadog-agent'
 
 build do
   # set GOPATH on the omnibus source dir for this software

@@ -8,9 +8,9 @@
 package clusterchecks
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/clusteragent/clusterchecks/types"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent/clusterchecks/types"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	v1 "k8s.io/api/core/v1"
 )
 

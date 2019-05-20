@@ -15,9 +15,9 @@ import (
 
 	"github.com/coreos/go-systemd/sdjournal"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // defaultWaitDuration represents the delay before which we try to collect a new log from the journal

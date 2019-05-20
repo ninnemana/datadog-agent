@@ -1,8 +1,8 @@
 package testutil
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
-	"github.com/DataDog/datadog-agent/pkg/trace/sampler"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/sampler"
 )
 
 // MockEngine mocks a sampler engine

@@ -18,8 +18,8 @@ import (
 	"github.com/gogo/protobuf/proto"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/ckey"
-	"github.com/DataDog/datadog-agent/pkg/serializer/marshaler"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/ckey"
+	"github.com/ninnemana/datadog-agent/pkg/serializer/marshaler"
 )
 
 var seriesExpvar = expvar.NewMap("series")

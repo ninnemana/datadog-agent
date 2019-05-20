@@ -9,7 +9,7 @@ package system
 import (
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
 	"github.com/shirou/gopsutil/cpu"
 )
 

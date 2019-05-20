@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/api/security"
+	"github.com/ninnemana/datadog-agent/pkg/api/security"
 )
 
 var (

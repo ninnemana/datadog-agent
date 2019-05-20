@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/config/legacy"
-	"github.com/DataDog/datadog-agent/pkg/trace/flags"
-	"github.com/DataDog/datadog-agent/pkg/trace/osutil"
-	writerconfig "github.com/DataDog/datadog-agent/pkg/trace/writer/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/config/legacy"
+	"github.com/ninnemana/datadog-agent/pkg/trace/flags"
+	"github.com/ninnemana/datadog-agent/pkg/trace/osutil"
+	writerconfig "github.com/ninnemana/datadog-agent/pkg/trace/writer/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 var (

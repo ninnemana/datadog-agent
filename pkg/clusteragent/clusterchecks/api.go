@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/DataDog/datadog-agent/pkg/clusteragent/clusterchecks/types"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent/clusterchecks/types"
 )
 
 const notReadyReason = "Startup in progress"

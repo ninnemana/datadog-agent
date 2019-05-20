@@ -6,7 +6,7 @@ Procmatch is a library that provides a way to extract datadog-integrations from 
 
 ### Installing
 
-To install the package: `go get -u github.com/DataDog/datadog-agent/pkg/procmatch`
+To install the package: `go get -u github.com/ninnemana/datadog-agent/pkg/procmatch`
 
 Usage:
 
@@ -16,7 +16,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/procmatch"
+	"github.com/ninnemana/datadog-agent/pkg/procmatch"
 )
 
 func main() {

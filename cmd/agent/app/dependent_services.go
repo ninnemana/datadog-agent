@@ -6,8 +6,8 @@
 package app
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // start various subservices (apm, logs, process) based on the config file settings

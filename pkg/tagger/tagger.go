@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/api/response"
-	"github.com/DataDog/datadog-agent/pkg/errors"
-	"github.com/DataDog/datadog-agent/pkg/status/health"
-	"github.com/DataDog/datadog-agent/pkg/tagger/collectors"
-	"github.com/DataDog/datadog-agent/pkg/tagger/utils"
-	"github.com/DataDog/datadog-agent/pkg/util/retry"
+	"github.com/ninnemana/datadog-agent/cmd/agent/api/response"
+	"github.com/ninnemana/datadog-agent/pkg/errors"
+	"github.com/ninnemana/datadog-agent/pkg/status/health"
+	"github.com/ninnemana/datadog-agent/pkg/tagger/collectors"
+	"github.com/ninnemana/datadog-agent/pkg/tagger/utils"
+	"github.com/ninnemana/datadog-agent/pkg/util/retry"
 )
 
 // Tagger is the entry class for entity tagging. It holds collectors, memory store

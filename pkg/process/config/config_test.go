@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/config"
 	"github.com/DataDog/gopsutil/process"
 	"github.com/stretchr/testify/assert"
 )

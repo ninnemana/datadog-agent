@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/trace/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const shortErrMsgLen = 17 // 20 char max with tailing "..."

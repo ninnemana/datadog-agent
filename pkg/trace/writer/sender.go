@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/watchdog"
-	"github.com/DataDog/datadog-agent/pkg/trace/writer/backoff"
-	writerconfig "github.com/DataDog/datadog-agent/pkg/trace/writer/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/trace/watchdog"
+	"github.com/ninnemana/datadog-agent/pkg/trace/writer/backoff"
+	writerconfig "github.com/ninnemana/datadog-agent/pkg/trace/writer/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // payload represents a data payload to be sent to some endpoint

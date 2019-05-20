@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/metrics"
-	"github.com/DataDog/datadog-agent/pkg/tagger"
-	"github.com/DataDog/datadog-agent/pkg/tagger/collectors"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/kubelet"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/tagger"
+	"github.com/ninnemana/datadog-agent/pkg/tagger/collectors"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/kubelet"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // Schema of a dogstatsd packet: see http://docs.datadoghq.com

@@ -15,9 +15,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/config"
-	"github.com/DataDog/datadog-agent/pkg/trace/sampler"
-	"github.com/DataDog/datadog-agent/pkg/trace/watchdog"
+	"github.com/ninnemana/datadog-agent/pkg/trace/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/sampler"
+	"github.com/ninnemana/datadog-agent/pkg/trace/watchdog"
 )
 
 var (

@@ -94,7 +94,7 @@ uninstall_integrations()
 {
     # Uninstall every datadog integration
     # Starting with 6.10, integrations are uninstalled on package removal
-    # See https://github.com/DataDog/datadog-agent/pull/3066 for more details
+    # See https://github.com/ninnemana/datadog-agent/pull/3066 for more details
     PIP_PATH=$INSTALL_DIR/embedded/bin/pip
     if [ -x $PIP_PATH ]; then
         echo "Uninstalling integrations..."

@@ -8,9 +8,9 @@
 package journald
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/logs/auditor"
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/pipeline"
+	"github.com/ninnemana/datadog-agent/pkg/logs/auditor"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/pipeline"
 )
 
 // Launcher is not supported on no systemd environment.

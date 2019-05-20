@@ -11,13 +11,13 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery"
-	"github.com/DataDog/datadog-agent/pkg/collector"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/dogstatsd"
-	"github.com/DataDog/datadog-agent/pkg/forwarder"
-	"github.com/DataDog/datadog-agent/pkg/metadata"
-	"github.com/DataDog/datadog-agent/pkg/util/executable"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery"
+	"github.com/ninnemana/datadog-agent/pkg/collector"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/dogstatsd"
+	"github.com/ninnemana/datadog-agent/pkg/forwarder"
+	"github.com/ninnemana/datadog-agent/pkg/metadata"
+	"github.com/ninnemana/datadog-agent/pkg/util/executable"
 )
 
 var (

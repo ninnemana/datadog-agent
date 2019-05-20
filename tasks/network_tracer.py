@@ -72,8 +72,8 @@ def build_in_docker(ctx, rebuild_ebpf_builder=False, race=False, incremental_bui
         build_ebpf_builder(ctx)
 
     docker_cmd = "docker run --rm \
-            -v {cwd}:/go/src/github.com/DataDog/datadog-agent \
-            --workdir=/go/src/github.com/DataDog/datadog-agent \
+            -v {cwd}:/go/src/github.com/ninnemana/datadog-agent \
+            --workdir=/go/src/github.com/ninnemana/datadog-agent \
             {builder} \
             {cmd}"
 

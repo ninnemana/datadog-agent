@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
-	"github.com/DataDog/datadog-agent/pkg/util/winutil"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil"
 	"golang.org/x/sys/windows"
 )
 

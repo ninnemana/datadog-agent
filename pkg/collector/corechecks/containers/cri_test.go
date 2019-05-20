@@ -12,8 +12,8 @@ import (
 
 	pb "k8s.io/kubernetes/pkg/kubelet/apis/cri/runtime/v1alpha2"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
-	core "github.com/DataDog/datadog-agent/pkg/collector/corechecks"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
+	core "github.com/ninnemana/datadog-agent/pkg/collector/corechecks"
 )
 
 func TestCRIprocessContainerStats(t *testing.T) {

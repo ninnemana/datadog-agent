@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/config"
 	"github.com/DataDog/datadog-go/statsd"
 )
 

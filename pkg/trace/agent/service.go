@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
-	"github.com/DataDog/datadog-agent/pkg/trace/stats"
-	"github.com/DataDog/datadog-agent/pkg/trace/watchdog"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/stats"
+	"github.com/ninnemana/datadog-agent/pkg/trace/watchdog"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // serviceApp represents the app to which certain integration belongs to

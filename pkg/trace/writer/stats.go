@@ -5,14 +5,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/config"
-	"github.com/DataDog/datadog-agent/pkg/trace/info"
-	"github.com/DataDog/datadog-agent/pkg/trace/metrics"
-	"github.com/DataDog/datadog-agent/pkg/trace/metrics/timing"
-	"github.com/DataDog/datadog-agent/pkg/trace/stats"
-	"github.com/DataDog/datadog-agent/pkg/trace/watchdog"
-	writerconfig "github.com/DataDog/datadog-agent/pkg/trace/writer/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/trace/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/info"
+	"github.com/ninnemana/datadog-agent/pkg/trace/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/trace/metrics/timing"
+	"github.com/ninnemana/datadog-agent/pkg/trace/stats"
+	"github.com/ninnemana/datadog-agent/pkg/trace/watchdog"
+	writerconfig "github.com/ninnemana/datadog-agent/pkg/trace/writer/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const pathStats = "/api/v0.2/stats"

@@ -10,7 +10,7 @@ package python
 import (
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -13,8 +13,8 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/DataDog/datadog-agent/pkg/util/common"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/common"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 var (

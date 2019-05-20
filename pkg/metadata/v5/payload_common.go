@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/metadata/common"
-	"github.com/DataDog/datadog-agent/pkg/metadata/host"
-	"github.com/DataDog/datadog-agent/pkg/metadata/resources"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/common"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/host"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/resources"
 )
 
 // CommonPayload wraps Payload from the common package

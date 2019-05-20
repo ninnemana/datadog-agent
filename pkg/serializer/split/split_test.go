@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/DataDog/datadog-agent/pkg/forwarder"
-	"github.com/DataDog/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/forwarder"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
 )
 
 func TestSplitPayloadsSeries(t *testing.T) {

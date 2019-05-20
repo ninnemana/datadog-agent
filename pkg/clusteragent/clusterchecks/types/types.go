@@ -6,7 +6,7 @@
 package types
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
 )
 
 // NodeStatus holds the status report from the node-agent

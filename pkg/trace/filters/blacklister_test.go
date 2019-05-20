@@ -3,7 +3,7 @@ package filters
 import (
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/test/testutil"
+	"github.com/ninnemana/datadog-agent/pkg/trace/test/testutil"
 
 	"github.com/stretchr/testify/assert"
 )

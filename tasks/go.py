@@ -234,7 +234,7 @@ def deps(ctx, no_checks=False, core_dir=None, verbose=False, android=False):
     ctx.run("dep ensure{}".format(verbosity))
     dep_done = datetime.datetime.now()
 
-    # If github.com/DataDog/datadog-agent gets vendored too - nuke it
+    # If github.com/ninnemana/datadog-agent gets vendored too - nuke it
     #
     # This may happen as a result of having to introduce DEPPROJECTROOT
     # in our builders to get around a known-issue with go dep, and the
@@ -242,9 +242,9 @@ def deps(ctx, no_checks=False, core_dir=None, verbose=False, android=False):
     #
     # This is only a workaround, we should eliminate the need to resort
     # to DEPPROJECTROOT.
-    if os.path.exists('vendor/github.com/DataDog/datadog-agent'):
-        print("Removing vendored github.com/DataDog/datadog-agent")
-        shutil.rmtree('vendor/github.com/DataDog/datadog-agent')
+    if os.path.exists('vendor/github.com/ninnemana/datadog-agent'):
+        print("Removing vendored github.com/ninnemana/datadog-agent")
+        shutil.rmtree('vendor/github.com/ninnemana/datadog-agent')
 
     # make sure PSUTIL is gone on windows; the dep ensure above will vendor it
     # in because it's necessary on other platforms
@@ -302,7 +302,7 @@ def lint_licenses(ctx):
         # FIXME: this conditional is necessary because of the issue introduced by DEPPROJECTROOT
         # (for some reason `datadog-agent` gets added to Gopkg.lock and vendored), see comment in `deps`
         # task for details
-        if project['name'] != 'github.com/DataDog/datadog-agent':
+        if project['name'] != 'github.com/ninnemana/datadog-agent':
             go_deps.add(project['name'])
 
     deps = go_deps | NON_GO_DEPS

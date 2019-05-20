@@ -45,7 +45,7 @@ INSTANCE_ID=$(jq -re .SpotInstanceRequests[].InstanceId spot-request-id.json)
 aws ec2 create-tags --resources ${SPOT_REQUEST_ID} ${INSTANCE_ID} \
     --region ${REGION} \
     --tags \
-    Key=repository,Value=github.com/DataDog/datadog-agent \
+    Key=repository,Value=github.com/ninnemana/datadog-agent \
     Key=branch,Value=${BRANCH} \
     Key=commit,Value=${COMMIT_ID:0:8} \
     Key=user,Value=${COMMIT_USER}

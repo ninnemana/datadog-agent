@@ -13,9 +13,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/DataDog/datadog-agent/pkg/clusteragent"
-	"github.com/DataDog/datadog-agent/pkg/clusteragent/clusterchecks"
-	cctypes "github.com/DataDog/datadog-agent/pkg/clusteragent/clusterchecks/types"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent/clusterchecks"
+	cctypes "github.com/ninnemana/datadog-agent/pkg/clusteragent/clusterchecks/types"
 )
 
 // Install registers v1 API endpoints

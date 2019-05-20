@@ -6,7 +6,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"github.com/DataDog/datadog-agent/pkg/util/winutil"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil"
 )
 
 // DefaultConfigPath specifies the default configuration path.

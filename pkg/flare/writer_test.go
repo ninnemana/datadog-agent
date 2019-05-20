@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -57,7 +57,7 @@ def get_build_flags(ctx, static=False, prefix=None, embedded_path=None,
 
     if embedded_path is None:
         # fall back to local dev path
-        embedded_path = "{}/src/github.com/DataDog/datadog-agent/dev".format(os.environ.get('GOPATH'))
+        embedded_path = "{}/src/github.com/ninnemana/datadog-agent/dev".format(os.environ.get('GOPATH'))
 
     six_lib, six_headers = get_multi_python_location(embedded_path, six_root)
 

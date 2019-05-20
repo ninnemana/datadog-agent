@@ -14,14 +14,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	lineParser "github.com/DataDog/datadog-agent/pkg/logs/parser"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	lineParser "github.com/ninnemana/datadog-agent/pkg/logs/parser"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/decoder"
-	"github.com/DataDog/datadog-agent/pkg/logs/input/kubernetes"
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
-	"github.com/DataDog/datadog-agent/pkg/logs/tag"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/decoder"
+	"github.com/ninnemana/datadog-agent/pkg/logs/input/kubernetes"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
+	"github.com/ninnemana/datadog-agent/pkg/logs/tag"
 )
 
 // DefaultSleepDuration represents the amount of time the tailer waits before reading new data when no data is received

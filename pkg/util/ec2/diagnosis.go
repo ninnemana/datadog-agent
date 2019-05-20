@@ -6,8 +6,8 @@
 package ec2
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/diagnose/diagnosis"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/diagnose/diagnosis"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 func init() {

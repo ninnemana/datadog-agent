@@ -6,7 +6,7 @@
 package container
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/logs/restart"
+	"github.com/ninnemana/datadog-agent/pkg/logs/restart"
 )
 
 // noopLauncher does nothing.

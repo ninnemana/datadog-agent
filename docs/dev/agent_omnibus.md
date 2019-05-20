@@ -61,7 +61,7 @@ Docker on your local machine before moving on.
 Clone the repo containing the Dockerfiles Datadog uses to build the official
 packages:
 ```
-git clone https://github.com/DataDog/datadog-agent-buildimages && cd datadog-agent-buildimages
+git clone https://github.com/ninnemana/datadog-agent-buildimages && cd datadog-agent-buildimages
 ```
 
 Depending on which kind of package you want, you should build the relevant image,

@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
-	"github.com/DataDog/datadog-agent/pkg/util/ecs/testutil"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/ecs/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

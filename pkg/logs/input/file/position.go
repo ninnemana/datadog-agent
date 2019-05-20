@@ -9,7 +9,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/auditor"
+	"github.com/ninnemana/datadog-agent/pkg/logs/auditor"
 )
 
 // Position returns the position from where logs should be collected.

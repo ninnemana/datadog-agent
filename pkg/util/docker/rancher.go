@@ -8,7 +8,7 @@ package docker
 import (
 	"net"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const rancherIPLabel = "io.rancher.container.ip"

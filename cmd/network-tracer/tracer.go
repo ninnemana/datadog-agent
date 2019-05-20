@@ -8,12 +8,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	"github.com/mailru/easyjson"
 
-	"github.com/DataDog/datadog-agent/pkg/ebpf"
-	"github.com/DataDog/datadog-agent/pkg/process/config"
-	"github.com/DataDog/datadog-agent/pkg/process/net"
+	"github.com/ninnemana/datadog-agent/pkg/ebpf"
+	"github.com/ninnemana/datadog-agent/pkg/process/config"
+	"github.com/ninnemana/datadog-agent/pkg/process/net"
 )
 
 // ErrTracerUnsupported is the unsupported error prefix, for error-class matching from callers

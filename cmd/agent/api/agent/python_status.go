@@ -12,7 +12,7 @@ package agent
 import (
 	"net/http"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 func getPythonStatus(w http.ResponseWriter, r *http.Request) {

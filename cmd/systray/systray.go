@@ -11,10 +11,10 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	seelog "github.com/cihub/seelog"
 
-	"github.com/DataDog/datadog-agent/pkg/version"
+	"github.com/ninnemana/datadog-agent/pkg/version"
 
 	"github.com/lxn/walk"
 	"golang.org/x/sys/windows"

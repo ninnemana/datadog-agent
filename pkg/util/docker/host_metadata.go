@@ -13,7 +13,7 @@ import (
 
 	"github.com/docker/docker/api/types/swarm"
 
-	"github.com/DataDog/datadog-agent/pkg/metadata/host/container"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/host/container"
 )
 
 func init() {

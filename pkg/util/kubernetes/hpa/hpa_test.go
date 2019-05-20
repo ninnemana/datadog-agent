@@ -16,7 +16,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/DataDog/datadog-agent/pkg/clusteragent/custommetrics"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent/custommetrics"
 )
 
 func TestDiffAutoscalter(t *testing.T) {

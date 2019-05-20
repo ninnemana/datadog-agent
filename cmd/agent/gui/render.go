@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/common"
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery"
-	"github.com/DataDog/datadog-agent/pkg/collector"
-	"github.com/DataDog/datadog-agent/pkg/collector/check"
-	"github.com/DataDog/datadog-agent/pkg/status"
+	"github.com/ninnemana/datadog-agent/cmd/agent/common"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery"
+	"github.com/ninnemana/datadog-agent/pkg/collector"
+	"github.com/ninnemana/datadog-agent/pkg/collector/check"
+	"github.com/ninnemana/datadog-agent/pkg/status"
 )
 
 var fmap = status.Fmap()

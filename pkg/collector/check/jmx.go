@@ -8,8 +8,8 @@ package check
 import (
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	agentconfig "github.com/DataDog/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	agentconfig "github.com/ninnemana/datadog-agent/pkg/config"
 )
 
 // IsJMXConfig checks if a certain YAML config is a JMX config

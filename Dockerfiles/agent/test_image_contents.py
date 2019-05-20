@@ -18,7 +18,7 @@ EXPECTED_ABSENT = [
 ]
 
 EXPECTED_CHECKSUMS = {
-    # See https://github.com/DataDog/datadog-agent/pull/1337
+    # See https://github.com/ninnemana/datadog-agent/pull/1337
     "/etc/s6/init/init-stage3": "710c5b63d7bf1d23897991cba43b8de68aef163e570a2a676db2d897bb09baf7",
 }
 

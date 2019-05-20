@@ -10,11 +10,11 @@ import (
 	"syscall"
 	"time"
 
-	ddconfig "github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/pidfile"
-	"github.com/DataDog/datadog-agent/pkg/process/config"
-	"github.com/DataDog/datadog-agent/pkg/process/util"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	ddconfig "github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/pidfile"
+	"github.com/ninnemana/datadog-agent/pkg/process/config"
+	"github.com/ninnemana/datadog-agent/pkg/process/util"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
 	_ "net/http/pprof"
 )

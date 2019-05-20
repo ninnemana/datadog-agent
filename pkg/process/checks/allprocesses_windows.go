@@ -10,8 +10,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/DataDog/datadog-agent/pkg/process/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/process/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	cpu "github.com/DataDog/gopsutil/cpu"
 	process "github.com/DataDog/gopsutil/process"
 	"github.com/StackExchange/wmi"

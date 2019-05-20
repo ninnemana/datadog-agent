@@ -11,7 +11,7 @@ package clusterchecks
 import (
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/apiserver"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/apiserver"
 	v1 "k8s.io/client-go/listers/core/v1"
 )
 

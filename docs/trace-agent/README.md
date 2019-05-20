@@ -17,7 +17,7 @@ The Trace Agent isn't part of the macOS Datadog Agent yet and it needs to be run
 on the side.
 
 - Have the [macOS Agent](https://app.datadoghq.com/account/settings#agent/mac) installed.
-- Download the latest macOS Trace Agent release from [here](https://github.com/DataDog/datadog-agent/releases). Older
+- Download the latest macOS Trace Agent release from [here](https://github.com/ninnemana/datadog-agent/releases). Older
 versions (pre-6.10.0) can be found in the [archive repository](https://github.com/DataDog/datadog-trace-agent/releases/).
 - Run the Trace Agent along the main agent:
 

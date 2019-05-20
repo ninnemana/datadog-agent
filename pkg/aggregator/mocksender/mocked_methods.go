@@ -6,7 +6,7 @@
 package mocksender
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
 )
 
 //Rate adds a rate type to the mock calls.

@@ -8,7 +8,7 @@ package config
 import (
 	"encoding/json"
 
-	coreConfig "github.com/DataDog/datadog-agent/pkg/config"
+	coreConfig "github.com/ninnemana/datadog-agent/pkg/config"
 )
 
 // ContainerCollectAll is the name of the docker integration that collect logs from all containers

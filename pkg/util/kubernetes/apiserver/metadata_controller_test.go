@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	apiv1 "github.com/DataDog/datadog-agent/pkg/clusteragent/api/v1"
+	apiv1 "github.com/ninnemana/datadog-agent/pkg/clusteragent/api/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
@@ -288,7 +288,7 @@ func TestMetadataControllerSyncEndpoints(t *testing.T) {
 }
 
 func TestMetadataController(t *testing.T) {
-	// FIXME: Updating to k8s.io/client-go v0.9+ should allow revert this PR https://github.com/DataDog/datadog-agent/pull/2524
+	// FIXME: Updating to k8s.io/client-go v0.9+ should allow revert this PR https://github.com/ninnemana/datadog-agent/pull/2524
 	// that allows a more fine-grain testing on the controller lifecycle (affected by bug https://github.com/kubernetes/kubernetes/pull/66078)
 	client := fake.NewSimpleClientset()
 

@@ -5,7 +5,7 @@ package ebpf
 import (
 	json "encoding/json"
 
-	netlink "github.com/DataDog/datadog-agent/pkg/ebpf/netlink"
+	netlink "github.com/ninnemana/datadog-agent/pkg/ebpf/netlink"
 	easyjson "github.com/mailru/easyjson"
 	jlexer "github.com/mailru/easyjson/jlexer"
 	jwriter "github.com/mailru/easyjson/jwriter"

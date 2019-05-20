@@ -7,13 +7,13 @@ package sender
 import (
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/client"
+	"github.com/ninnemana/datadog-agent/pkg/logs/client"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/client/mock"
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
+	"github.com/ninnemana/datadog-agent/pkg/logs/client/mock"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
 )
 
 func newMessage(content []byte, source *config.LogSource, status string) *message.Message {

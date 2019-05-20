@@ -10,8 +10,8 @@ package jsonstream
 import (
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/forwarder"
-	"github.com/DataDog/datadog-agent/pkg/serializer/marshaler"
+	"github.com/ninnemana/datadog-agent/pkg/forwarder"
+	"github.com/ninnemana/datadog-agent/pkg/serializer/marshaler"
 )
 
 const (

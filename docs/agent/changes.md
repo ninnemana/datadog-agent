@@ -88,7 +88,7 @@ new layout is strongly recommended.
 When running the agent in a container, it is also possible to set some of the configuration through environment variables.
 **The environment variables used in the agent 6 are different from those available in agent 5.**
 
-To not miss some specific configuration details, if you are currently using environment variables to setup your agent's v5 configuration, [consult the new list of environment variables for Agent v6](https://github.com/DataDog/datadog-agent/tree/master/Dockerfiles/agent#environment-variables).
+To not miss some specific configuration details, if you are currently using environment variables to setup your agent's v5 configuration, [consult the new list of environment variables for Agent v6](https://github.com/ninnemana/datadog-agent/tree/master/Dockerfiles/agent#environment-variables).
 
 #### Proxies
 
@@ -341,7 +341,7 @@ Agent 6 currently supports Kubernetes versions 1.3 and above.
 The `kubernetes` integration insights are provided combining:
   * The [`kubelet`](https://github.com/DataDog/integrations-core/tree/master/kubelet) check
   retrieving metrics from the kubelet
-  * The [`kubernetes_apiserver`](https://github.com/DataDog/datadog-agent/tree/master/cmd/agent/dist/conf.d/kubernetes_apiserver.d) check retrieving events and service checks from the apiserver
+  * The [`kubernetes_apiserver`](https://github.com/ninnemana/datadog-agent/tree/master/cmd/agent/dist/conf.d/kubernetes_apiserver.d) check retrieving events and service checks from the apiserver
 
 The `agent import` command (in versions 6.2 and higher) will import settings from the legacy `kubernetes.yaml` configuration, if found. The following  options are deprecated:
 
@@ -530,7 +530,7 @@ The Agent 6 does not ship the `jmxterm` JAR. If you wish to download and use `jm
 
 ### Troubleshooting commands
 
-Troubleshooting commands syntax have changed. These commands are available since v6.2.0, for earlier v6 versions please refer to [the earlier docs](https://github.com/DataDog/datadog-agent/blob/6.1.4/docs/agent/changes.md#jmx):
+Troubleshooting commands syntax have changed. These commands are available since v6.2.0, for earlier v6 versions please refer to [the earlier docs](https://github.com/ninnemana/datadog-agent/blob/6.1.4/docs/agent/changes.md#jmx):
 
 * `sudo -u dd-agent datadog-agent jmx list matching`: List attributes that match at least one of your instances configuration.
 
@@ -563,6 +563,6 @@ will change from the GCE instance _name_ to the full GCE instance _hostname_ (wh
 
 [known-issues]: known_issues.md
 [sheepdog]: https://www.datadoghq.com/blog/datadog-acquires-logmatic-io/
-[python-dev]: https://github.com/DataDog/datadog-agent/tree/master/docs/dev/checks#python-checks
+[python-dev]: https://github.com/ninnemana/datadog-agent/tree/master/docs/dev/checks#python-checks
 [config]: config.md
 [integrations-core]: https://github.com/DataDog/integrations-core

@@ -5,8 +5,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/DataDog/datadog-agent/pkg/process/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/process/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // UDSListener (Unix Domain Socket Listener)

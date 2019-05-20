@@ -17,12 +17,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	auditor "github.com/DataDog/datadog-agent/pkg/logs/auditor/mock"
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
-	"github.com/DataDog/datadog-agent/pkg/logs/pipeline"
-	"github.com/DataDog/datadog-agent/pkg/logs/pipeline/mock"
-	"github.com/DataDog/datadog-agent/pkg/logs/status"
+	auditor "github.com/ninnemana/datadog-agent/pkg/logs/auditor/mock"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
+	"github.com/ninnemana/datadog-agent/pkg/logs/pipeline"
+	"github.com/ninnemana/datadog-agent/pkg/logs/pipeline/mock"
+	"github.com/ninnemana/datadog-agent/pkg/logs/status"
 )
 
 type ScannerTestSuite struct {

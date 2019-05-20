@@ -7,7 +7,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
 	"github.com/stretchr/testify/assert"
 )
 

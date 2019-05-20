@@ -16,11 +16,11 @@ import (
 	"k8s.io/api/core/v1"
 	obj "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
-	core "github.com/DataDog/datadog-agent/pkg/collector/corechecks"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/clustername"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
+	core "github.com/ninnemana/datadog-agent/pkg/collector/corechecks"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/clustername"
 	"k8s.io/apimachinery/pkg/types"
 )
 

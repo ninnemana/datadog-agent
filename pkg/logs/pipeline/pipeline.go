@@ -6,11 +6,11 @@
 package pipeline
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/logs/client"
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
-	"github.com/DataDog/datadog-agent/pkg/logs/processor"
-	"github.com/DataDog/datadog-agent/pkg/logs/sender"
+	"github.com/ninnemana/datadog-agent/pkg/logs/client"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
+	"github.com/ninnemana/datadog-agent/pkg/logs/processor"
+	"github.com/ninnemana/datadog-agent/pkg/logs/sender"
 )
 
 // Pipeline processes and sends messages to the backend

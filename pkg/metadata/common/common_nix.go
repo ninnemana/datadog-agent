@@ -9,9 +9,9 @@ package common
 import (
 	"path"
 
-	"github.com/DataDog/datadog-agent/pkg/util/cache"
+	"github.com/ninnemana/datadog-agent/pkg/util/cache"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 	gopsutilhost "github.com/shirou/gopsutil/host"
 )
 

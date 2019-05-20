@@ -16,7 +16,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/DataDog/datadog-agent/pkg/util/executable"
+	"github.com/ninnemana/datadog-agent/pkg/util/executable"
 )
 
 const apm_binary_name = "trace-agent"

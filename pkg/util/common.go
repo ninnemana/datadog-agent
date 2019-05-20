@@ -18,11 +18,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/version"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/version"
 )
 
 func init() {
@@ -210,7 +210,7 @@ func CreateHTTPTransport() *http.Transport {
 			KeepAlive: 30 * time.Second,
 			// Disable happy eyeballs. This option will be deprecated in go 1.12.
 			// At this point we will need to disable it by setting a new attribute to false.
-			// See https://github.com/DataDog/datadog-agent/pull/2464
+			// See https://github.com/ninnemana/datadog-agent/pull/2464
 			DualStack: false,
 		}).DialContext,
 		MaxIdleConns:        100,

@@ -1,6 +1,6 @@
 package util
 
-import "github.com/DataDog/datadog-agent/pkg/util/containers/metrics"
+import "github.com/ninnemana/datadog-agent/pkg/util/containers/metrics"
 
 // ContainerRateMetrics holds previous values for a container,
 // in order to compute rates

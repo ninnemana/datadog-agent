@@ -16,7 +16,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/kubelet"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/kubelet"
 )
 
 // DockerKubeletService overrides some methods when a container is

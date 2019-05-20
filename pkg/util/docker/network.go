@@ -20,9 +20,9 @@ import (
 
 	"github.com/docker/docker/api/types"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/containers/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 type dockerNetwork struct {

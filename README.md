@@ -3,8 +3,8 @@
 [![CircleCI](https://circleci.com/gh/DataDog/datadog-agent/tree/master.svg?style=svg&circle-token=dbcee3f02b9c3fe5f142bfc5ecb735fdec34b643)](https://circleci.com/gh/DataDog/datadog-agent/tree/master)
 [![Build status](https://ci.appveyor.com/api/projects/status/kcwhmlsc0oq3m49p/branch/master?svg=true)](https://ci.appveyor.com/project/Datadog/datadog-agent/branch/master)
 [![Coverage status](https://codecov.io/github/DataDog/datadog-agent/coverage.svg?branch=master)](https://codecov.io/github/DataDog/datadog-agent?branch=master)
-[![GoDoc](https://godoc.org/github.com/DataDog/datadog-agent?status.svg)](https://godoc.org/github.com/DataDog/datadog-agent)
-[![Go Report Card](https://goreportcard.com/badge/github.com/DataDog/datadog-agent)](https://goreportcard.com/report/github.com/DataDog/datadog-agent)
+[![GoDoc](https://godoc.org/github.com/ninnemana/datadog-agent?status.svg)](https://godoc.org/github.com/ninnemana/datadog-agent)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ninnemana/datadog-agent)](https://goreportcard.com/report/github.com/ninnemana/datadog-agent)
 
 The present repository contains the source code of the Datadog Agent version 6. Please refer to the [Agent user documentation](docs/agent) for information about differences between Agent 5 and Agent 6. Additionally, we provide a list of prepackaged binaries for an easy install process [here](https://app.datadoghq.com/account/settings#agent)
 
@@ -42,8 +42,8 @@ to see the available tasks.
 
 To start working on the Agent, you can build the `master` branch:
 
-1. Checkout the repo: `git clone https://github.com/DataDog/datadog-agent.git $GOPATH/src/github.com/DataDog/datadog-agent`.
-2. cd into the project folder: `cd $GOPATH/src/github.com/DataDog/datadog-agent`.
+1. Checkout the repo: `git clone https://github.com/ninnemana/datadog-agent.git $GOPATH/src/github.com/ninnemana/datadog-agent`.
+2. cd into the project folder: `cd $GOPATH/src/github.com/ninnemana/datadog-agent`.
 3. Install project's dependencies: `invoke deps`.
    Make sure that `$GOPATH/bin` is in your `$PATH` otherwise this step might fail.
 4. Build the `six` dependency with `invoke six.build && invoke six.install`. You will need CMake installed and a C++ compiler for this to work.

@@ -14,8 +14,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/status/health"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/status/health"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const defaultTimeout = time.Second

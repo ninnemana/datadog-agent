@@ -20,11 +20,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/api/agent"
-	"github.com/DataDog/datadog-agent/cmd/agent/api/check"
-	"github.com/DataDog/datadog-agent/pkg/api/security"
-	"github.com/DataDog/datadog-agent/pkg/api/util"
-	"github.com/DataDog/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/cmd/agent/api/agent"
+	"github.com/ninnemana/datadog-agent/cmd/agent/api/check"
+	"github.com/ninnemana/datadog-agent/pkg/api/security"
+	"github.com/ninnemana/datadog-agent/pkg/api/util"
+	"github.com/ninnemana/datadog-agent/pkg/config"
 	"github.com/gorilla/mux"
 )
 

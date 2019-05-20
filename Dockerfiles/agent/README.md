@@ -62,7 +62,7 @@ Send custom metrics via [the statsd protocol](https://docs.datadoghq.com/develop
 
 #### Tagging
 
-We automatically collect common tags from [Docker](https://github.com/DataDog/datadog-agent/blob/master/pkg/tagger/collectors/docker_extract.go), [Kubernetes](https://github.com/DataDog/datadog-agent/blob/master/pkg/tagger/collectors/kubelet_extract.go), [ECS](https://github.com/DataDog/datadog-agent/blob/master/pkg/tagger/collectors/ecs_extract.go), [Swarm, Mesos, Nomad and Rancher](https://github.com/DataDog/datadog-agent/blob/master/pkg/tagger/collectors/docker_extract.go), and allow you to extract even more tags with the following options:
+We automatically collect common tags from [Docker](https://github.com/ninnemana/datadog-agent/blob/master/pkg/tagger/collectors/docker_extract.go), [Kubernetes](https://github.com/ninnemana/datadog-agent/blob/master/pkg/tagger/collectors/kubelet_extract.go), [ECS](https://github.com/ninnemana/datadog-agent/blob/master/pkg/tagger/collectors/ecs_extract.go), [Swarm, Mesos, Nomad and Rancher](https://github.com/ninnemana/datadog-agent/blob/master/pkg/tagger/collectors/docker_extract.go), and allow you to extract even more tags with the following options:
 
 - `DD_DOCKER_LABELS_AS_TAGS` : extract docker container labels
 - `DD_DOCKER_ENV_AS_TAGS` : extract docker container environment variables
@@ -92,7 +92,7 @@ DD_KUBERNETES_POD_LABELS_AS_TAGS='{"app*":"kube_%%label%%"}'
 
 #### Using secret files (BETA)
 
-Integration credentials can be stored in Docker / Kubernetes secrets and used in Autodiscovery templates. See the [setup instructions for the helper script](secrets-helper/README.md) and the [agent documentation](https://github.com/DataDog/datadog-agent/blob/6.4.x/docs/agent/secrets.md) for more information.
+Integration credentials can be stored in Docker / Kubernetes secrets and used in Autodiscovery templates. See the [setup instructions for the helper script](secrets-helper/README.md) and the [agent documentation](https://github.com/ninnemana/datadog-agent/blob/6.4.x/docs/agent/secrets.md) for more information.
 
 #### Ignore containers
 
@@ -116,7 +116,7 @@ You can add extra listeners and config providers via the `DD_EXTRA_LISTENERS` an
 ### Datadog Cluster Agent
 
 The DCA is a **beta** feature, if you are facing any issues please reach out to our [support team](http://docs.datadoghq.com/help)
-Starting with Agent v6.3.2, you can use the [Datadog Cluster Agent](#https://github.com/DataDog/datadog-agent/blob/master/docs/cluster-agent/README.md).
+Starting with Agent v6.3.2, you can use the [Datadog Cluster Agent](#https://github.com/ninnemana/datadog-agent/blob/master/docs/cluster-agent/README.md).
 
 Cluster level features are now handled by the cluster agent, and you will find a `[DCA]` notation next to the affected features. Please refer to the below user documentation as well as the technical documentation here for further details on the instrumentation.
 
@@ -135,9 +135,9 @@ Please refer to the dedicated section about the [Kubernetes integration](#kubern
 
 - `DD_JMX_CUSTOM_JARS`: space-separated list of custom jars to load in jmxfetch (only for the `-jmx` variants)
 - `DD_ENABLE_GOHAI`: enable or disable the system information collector [gohai](https://github.com/DataDog/gohai) (enabled by default if not set)
-- `DD_EXPVAR_PORT`: change the port for fetching [expvar](https://golang.org/pkg/expvar/) public variables from the agent. (defaults to 5000, you may then also have to change the [agent_stat.yaml](https://github.com/DataDog/datadog-agent/blob/f41c924ee1348c5c755118663f0895c7e4da1a4d/cmd/agent/dist/conf.d/go_expvar.d/agent_stats.yaml.example#L40))
+- `DD_EXPVAR_PORT`: change the port for fetching [expvar](https://golang.org/pkg/expvar/) public variables from the agent. (defaults to 5000, you may then also have to change the [agent_stat.yaml](https://github.com/ninnemana/datadog-agent/blob/f41c924ee1348c5c755118663f0895c7e4da1a4d/cmd/agent/dist/conf.d/go_expvar.d/agent_stats.yaml.example#L40))
 
-Some options are not yet available as environment variable bindings. To customize these, the agent supports mounting a custom `/etc/datadog-agent/datadog.yaml` configuration file (based on the [docker](https://github.com/DataDog/datadog-agent/blob/master/Dockerfiles/agent/datadog-docker.yaml) or [kubernetes](https://github.com/DataDog/datadog-agent/blob/master/Dockerfiles/agent/datadog-kubernetes.yaml) base configurations) for these options, and using environment variables for the rest.
+Some options are not yet available as environment variable bindings. To customize these, the agent supports mounting a custom `/etc/datadog-agent/datadog.yaml` configuration file (based on the [docker](https://github.com/ninnemana/datadog-agent/blob/master/Dockerfiles/agent/datadog-docker.yaml) or [kubernetes](https://github.com/ninnemana/datadog-agent/blob/master/Dockerfiles/agent/datadog-kubernetes.yaml) base configurations) for these options, and using environment variables for the rest.
 
 ### Optional volumes
 
@@ -207,7 +207,7 @@ Similarly to Agent 5, Agent 6 collects events from the Kubernetes API server.
 2/ Give the agents proper RBACs to activate this feature. See the [RBAC](#rbac) section.
 3/ A ConfigMap can be used to store the `event.tokenKey` and the `event.tokenTimestamp`. It has to be deployed in the `default` namespace and be named `datadogtoken`.
    Run `kubectl create configmap datadogtoken --from-literal="event.tokenKey"="0"` .
-   You can also use the example in [manifests/datadog_configmap.yaml][https://github.com/DataDog/datadog-agent/blob/master/Dockerfiles/manifests/datadog_configmap.yaml].
+   You can also use the example in [manifests/datadog_configmap.yaml][https://github.com/ninnemana/datadog-agent/blob/master/Dockerfiles/manifests/datadog_configmap.yaml].
 
 Note: When the ConfigMap is used, if the agent in charge (via the [Leader election](#leader-election)) of collecting the events dies, the next leader elected will use the ConfigMap to identify the last events pulled.
 This is in order to avoid duplicate the events collected, as well as putting less stress on the API Server.
@@ -229,7 +229,7 @@ It can be configured with the environment variable `DD_LEADER_LEASE_DURATION`.
 
 #### RBAC
 
-If you are using the DCA, find all the RBAC for the agent as well as the Cluster agent [here](https://github.com/DataDog/datadog-agent/tree/master/Dockerfiles/manifests/cluster-agent)
+If you are using the DCA, find all the RBAC for the agent as well as the Cluster agent [here](https://github.com/ninnemana/datadog-agent/tree/master/Dockerfiles/manifests/cluster-agent)
 
 <a name="rbac"></a>
 In the context of using the Kubernetes integration, and when deploying agents in a Kubernetes cluster, a set of rights are required for the agent to integrate seamlessly.
@@ -241,7 +241,7 @@ You will need to allow the agent to be allowed to perform a few actions:
 - `get`, `update` and `create` for the `Endpoint`. The Endpoint used by the agent for the [Leader election](#leader-election) feature is named `datadog-leader-election`.
 - `list` the `componentstatuses` resource, in order to submit service checks for the Controle Plane's components status.
 
-You can find the templates in manifests/rbac [here](https://github.com/DataDog/datadog-agent/tree/master/Dockerfiles/manifests/rbac).
+You can find the templates in manifests/rbac [here](https://github.com/ninnemana/datadog-agent/tree/master/Dockerfiles/manifests/rbac).
 This will create the Service Account in the default namespace, a Cluster Role with the above rights and the Cluster Role Binding.
 
 ### Node label collection

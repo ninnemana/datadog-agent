@@ -11,13 +11,13 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/forwarder"
-	"github.com/DataDog/datadog-agent/pkg/serializer/jsonstream"
-	"github.com/DataDog/datadog-agent/pkg/serializer/marshaler"
-	"github.com/DataDog/datadog-agent/pkg/serializer/split"
-	"github.com/DataDog/datadog-agent/pkg/util/compression"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/forwarder"
+	"github.com/ninnemana/datadog-agent/pkg/serializer/jsonstream"
+	"github.com/ninnemana/datadog-agent/pkg/serializer/marshaler"
+	"github.com/ninnemana/datadog-agent/pkg/serializer/split"
+	"github.com/ninnemana/datadog-agent/pkg/util/compression"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const (

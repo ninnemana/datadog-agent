@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/ebpf/netlink"
+	"github.com/ninnemana/datadog-agent/pkg/ebpf/netlink"
 )
 
 // ConnectionType will be either TCP or UDP

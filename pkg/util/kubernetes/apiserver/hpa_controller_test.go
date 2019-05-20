@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/clusteragent/custommetrics"
+	"github.com/ninnemana/datadog-agent/pkg/clusteragent/custommetrics"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/zorkian/go-datadog-api.v2"
@@ -22,8 +22,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/DataDog/datadog-agent/pkg/errors"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/hpa"
+	"github.com/ninnemana/datadog-agent/pkg/errors"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/hpa"
 	autoscalingv2 "k8s.io/api/autoscaling/v2beta1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/informers"

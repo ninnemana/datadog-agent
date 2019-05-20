@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
-	ddconfig "github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	ddconfig "github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/datadog-agent/pkg/ebpf"
-	"github.com/DataDog/datadog-agent/pkg/process/util"
+	"github.com/ninnemana/datadog-agent/pkg/ebpf"
+	"github.com/ninnemana/datadog-agent/pkg/process/util"
 )
 
 // TracerConfigFromConfig returns a valid tracer-bpf config sourced from our agent config

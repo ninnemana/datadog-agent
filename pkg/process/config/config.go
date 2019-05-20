@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/process/util"
-	ecsutil "github.com/DataDog/datadog-agent/pkg/util/ecs"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/process/util"
+	ecsutil "github.com/ninnemana/datadog-agent/pkg/util/ecs"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 var (

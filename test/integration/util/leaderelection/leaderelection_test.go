@@ -29,10 +29,10 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	rl "k8s.io/client-go/tools/leaderelection/resourcelock"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/apiserver"
-	"github.com/DataDog/datadog-agent/pkg/util/kubernetes/apiserver/leaderelection"
-	"github.com/DataDog/datadog-agent/test/integration/utils"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/apiserver"
+	"github.com/ninnemana/datadog-agent/pkg/util/kubernetes/apiserver/leaderelection"
+	"github.com/ninnemana/datadog-agent/test/integration/utils"
 )
 
 const setupTimeout = time.Second * 10

@@ -8,21 +8,21 @@ package logs
 import (
 	"time"
 
-	coreConfig "github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/status/health"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	coreConfig "github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/status/health"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/auditor"
-	"github.com/DataDog/datadog-agent/pkg/logs/client"
-	"github.com/DataDog/datadog-agent/pkg/logs/config"
-	"github.com/DataDog/datadog-agent/pkg/logs/input/container"
-	"github.com/DataDog/datadog-agent/pkg/logs/input/file"
-	"github.com/DataDog/datadog-agent/pkg/logs/input/journald"
-	"github.com/DataDog/datadog-agent/pkg/logs/input/listener"
-	"github.com/DataDog/datadog-agent/pkg/logs/input/windowsevent"
-	"github.com/DataDog/datadog-agent/pkg/logs/pipeline"
-	"github.com/DataDog/datadog-agent/pkg/logs/restart"
-	"github.com/DataDog/datadog-agent/pkg/logs/service"
+	"github.com/ninnemana/datadog-agent/pkg/logs/auditor"
+	"github.com/ninnemana/datadog-agent/pkg/logs/client"
+	"github.com/ninnemana/datadog-agent/pkg/logs/config"
+	"github.com/ninnemana/datadog-agent/pkg/logs/input/container"
+	"github.com/ninnemana/datadog-agent/pkg/logs/input/file"
+	"github.com/ninnemana/datadog-agent/pkg/logs/input/journald"
+	"github.com/ninnemana/datadog-agent/pkg/logs/input/listener"
+	"github.com/ninnemana/datadog-agent/pkg/logs/input/windowsevent"
+	"github.com/ninnemana/datadog-agent/pkg/logs/pipeline"
+	"github.com/ninnemana/datadog-agent/pkg/logs/restart"
+	"github.com/ninnemana/datadog-agent/pkg/logs/service"
 )
 
 // Agent represents the data pipeline that collects, decodes,

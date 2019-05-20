@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/DataDog/datadog-agent/pkg/process/util"
+	"github.com/ninnemana/datadog-agent/pkg/process/util"
 )
 
 var (

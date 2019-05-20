@@ -4,9 +4,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/atomic"
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
-	"github.com/DataDog/datadog-agent/pkg/trace/watchdog"
+	"github.com/ninnemana/datadog-agent/pkg/trace/atomic"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/watchdog"
 )
 
 const (

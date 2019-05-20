@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/config"
-	"github.com/DataDog/datadog-agent/pkg/trace/info"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/trace/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/info"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 const languageHeaderKey = "X-Datadog-Reported-Languages"

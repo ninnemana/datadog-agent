@@ -10,8 +10,8 @@ package system
 import (
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
-	"github.com/DataDog/datadog-agent/pkg/util/winutil"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil"
 	"github.com/stretchr/testify/require"
 )
 

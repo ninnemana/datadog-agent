@@ -250,7 +250,7 @@ api_key:
 ## `secret_backend_command` is the path to the script to execute to fetch secrets.
 ## The executable must have specific rights that differ on Windows and Linux.
 ##
-## For more information see: https://github.com/DataDog/datadog-agent/blob/master/docs/agent/secrets.md
+## For more information see: https://github.com/ninnemana/datadog-agent/blob/master/docs/agent/secrets.md
 #
 # secret_backend_command: <COMMAND_PATH>
 
@@ -1206,7 +1206,7 @@ api_key:
 ## @param kubernetes_collect_metadata_tags - boolean - optional - default: true
 ## Set this to false to disable tag collection for the Agent.
 ## Note: In order to collect Kubernetes service names, the Agent needs certain rights.
-## See https://github.com/DataDog/datadog-agent/blob/master/Dockerfiles/agent/README.md#kubernetes
+## See https://github.com/ninnemana/datadog-agent/blob/master/Dockerfiles/agent/README.md#kubernetes
 #
 # kubernetes_collect_metadata_tags: true
 
@@ -1224,7 +1224,7 @@ api_key:
 ## Set `collect_kubernetes_events` to true to enable log collection.
 ## Note: leader election must be enabled must be enabled  bellow to to collect events.
 ##       Only the leader Agent collects events.
-## See https://github.com/DataDog/datadog-agent/blob/master/Dockerfiles/agent/README.md#event-collection
+## See https://github.com/ninnemana/datadog-agent/blob/master/Dockerfiles/agent/README.md#event-collection
 #
 # collect_kubernetes_events: false
 
@@ -1235,7 +1235,7 @@ api_key:
 
 ## @param leader_election - boolean - optional - default: false
 ## Set the parameter to true to enable leader election on this node.
-## See https://github.com/DataDog/datadog-agent/blob/master/Dockerfiles/agent/README.md#leader-election
+## See https://github.com/ninnemana/datadog-agent/blob/master/Dockerfiles/agent/README.md#leader-election
 #
 # leader_election: false
 

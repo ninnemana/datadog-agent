@@ -8,11 +8,11 @@ package clustername
 import (
 	"sync"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/azure"
-	"github.com/DataDog/datadog-agent/pkg/util/ec2"
-	"github.com/DataDog/datadog-agent/pkg/util/gce"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/azure"
+	"github.com/ninnemana/datadog-agent/pkg/util/ec2"
+	"github.com/ninnemana/datadog-agent/pkg/util/gce"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 type clusterNameData struct {

@@ -6,7 +6,7 @@
 package check
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
 	"time"
 )
 

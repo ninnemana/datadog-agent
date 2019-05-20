@@ -3,7 +3,7 @@
 - Authors: your names here
 - Date: 2000-01-01
 - Status: draft|review|accepted|closed
-- [Discussion](https://github.com/DataDog/datadog-agent/pull/0)
+- [Discussion](https://github.com/ninnemana/datadog-agent/pull/0)
 
 ## Overview
 

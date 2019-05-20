@@ -8,7 +8,7 @@
 package cri
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/metadata/host/container"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/host/container"
 )
 
 func init() {

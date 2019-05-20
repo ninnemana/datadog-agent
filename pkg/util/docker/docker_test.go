@@ -11,7 +11,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/network"
 	"github.com/stretchr/testify/assert"

@@ -96,7 +96,7 @@ package :msi do
   parameters({
     'InstallDir' => install_dir,
     'InstallFiles' => "#{Omnibus::Config.source_dir()}/datadog-agent/dd-agent/packaging/datadog-agent/win32/install_files",
-    'BinFiles' => "#{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/DataDog/datadog-agent/bin/agent",
+    'BinFiles' => "#{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/ninnemana/datadog-agent/bin/agent",
     'EtcFiles' => "#{Omnibus::Config.source_dir()}\\etc\\datadog-agent",
   })
 end

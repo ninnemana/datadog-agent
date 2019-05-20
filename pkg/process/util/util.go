@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/util/docker"
+	"github.com/ninnemana/datadog-agent/pkg/util/docker"
 )
 
 // ErrNotImplemented is the "not implemented" error given by `gopsutil` when an

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/trace/writer/backoff"
-	writerconfig "github.com/DataDog/datadog-agent/pkg/trace/writer/config"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/trace/writer/backoff"
+	writerconfig "github.com/ninnemana/datadog-agent/pkg/trace/writer/config"
 	"github.com/stretchr/testify/assert"
 )
 

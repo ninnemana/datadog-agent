@@ -699,7 +699,7 @@ Upgrade Notes
 
 - The agent now requires a cluster agent version 1.0+ to establish
   a valid connection
-- JMX garbage collection metrics ``jvm.gc.cms.count`` and ``jvm.gc.parnew.time`` were renamed to ``jvm.gc.minor_collection_count``, ``jvm.gc.major_collection_count``, ``jvm.gc.minor_collection_time``, ``jvm.gc.major_collection_time`` in 6.6 to be more meaningful. To ensure backward compatibility the change was reverted in this release and the new names put behind a config option. If you started relying on these new names please enable the ``new_gc_metrics`` option in your jmx configurations. An example can be found `here <https://github.com/DataDog/datadog-agent/blob/1aee233a18dedbb8af86da0ce1f2e305206aacf8/cmd/agent/dist/conf.d/jmx.d/conf.yaml.example#L8-L13>`_. This flag will be enabled by default in a future major release.
+- JMX garbage collection metrics ``jvm.gc.cms.count`` and ``jvm.gc.parnew.time`` were renamed to ``jvm.gc.minor_collection_count``, ``jvm.gc.major_collection_count``, ``jvm.gc.minor_collection_time``, ``jvm.gc.major_collection_time`` in 6.6 to be more meaningful. To ensure backward compatibility the change was reverted in this release and the new names put behind a config option. If you started relying on these new names please enable the ``new_gc_metrics`` option in your jmx configurations. An example can be found `here <https://github.com/ninnemana/datadog-agent/blob/1aee233a18dedbb8af86da0ce1f2e305206aacf8/cmd/agent/dist/conf.d/jmx.d/conf.yaml.example#L8-L13>`_. This flag will be enabled by default in a future major release.
 
 New Features
 ------------
@@ -1185,7 +1185,7 @@ Upgrade Notes
 
   For more details please read the technical note in the `datadog.yaml`_.
 
-  .. _datadog.yaml: https://github.com/DataDog/datadog-agent/blob/master/pkg/config/config_template.yaml#L130-L140
+  .. _datadog.yaml: https://github.com/ninnemana/datadog-agent/blob/master/pkg/config/config_template.yaml#L130-L140
 
 - Prometheus custom checks are now limited to 2000 metrics by default
   to provide users control over the maximum number of custom metrics
@@ -1676,7 +1676,7 @@ Deprecation Notes
   pulled from integrations-core. The code now resides in the `datadog_checks`
   namespace, though the old `checks`, `utils`, etc. paths are still supported.
   Please update your custom checks accordingly. For more information, see
-  https://github.com/DataDog/datadog-agent/blob/master/docs/agent/changes.md#python-modules
+  https://github.com/ninnemana/datadog-agent/blob/master/docs/agent/changes.md#python-modules
 
 
 .. _Release Notes_6.3.0_Bug Fixes:
@@ -1848,7 +1848,7 @@ Enhancements
 - Add agent5-like JMXFetch helper commands to help with JMXFetch troubleshooting.
 
 - The agent has been tested on Kubernetes 1.4 & OpenShift 3.4. Refer to
-  https://github.com/DataDog/datadog-agent/blob/master/Dockerfiles/agent/README.md
+  https://github.com/ninnemana/datadog-agent/blob/master/Dockerfiles/agent/README.md
   for installation instructions
 
 - Extract creator tags from kubernetes legacy `created-by` annotation if
@@ -2320,7 +2320,7 @@ Bug Fixes
 
 - Fix line miss issue_ that could happen when tailing new files found when scanning
 
-  .. _issue: https://github.com/DataDog/datadog-agent/issues/1302
+  .. _issue: https://github.com/ninnemana/datadog-agent/issues/1302
 
 - On windows ``Automatic`` services would fail to start across reboots due to
   a known go issue on 1.9.2: https://github.com/golang/go/issues/23479
@@ -2583,7 +2583,7 @@ Bug Fixes
 
 - Fixes a bug that caused the GUI to create a flare without a status file
 
-- Fix https://github.com/DataDog/datadog-agent/issues/1159 where error was not
+- Fix https://github.com/ninnemana/datadog-agent/issues/1159 where error was not
   explicit when the check had invalid configuration or code
 
 - Fix to evaluate whether the DCA can query resources (events, services, nodes, pods) before running core component or checks.

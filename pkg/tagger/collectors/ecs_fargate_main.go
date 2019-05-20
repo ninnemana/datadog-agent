@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/errors"
-	taggerutil "github.com/DataDog/datadog-agent/pkg/tagger/utils"
-	"github.com/DataDog/datadog-agent/pkg/util/docker"
-	ecsutil "github.com/DataDog/datadog-agent/pkg/util/ecs"
+	"github.com/ninnemana/datadog-agent/pkg/errors"
+	taggerutil "github.com/ninnemana/datadog-agent/pkg/tagger/utils"
+	"github.com/ninnemana/datadog-agent/pkg/util/docker"
+	ecsutil "github.com/ninnemana/datadog-agent/pkg/util/ecs"
 )
 
 const (

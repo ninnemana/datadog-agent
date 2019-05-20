@@ -10,8 +10,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/DataDog/datadog-agent/pkg/diagnose/diagnosis"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/diagnose/diagnosis"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 
 	"github.com/cihub/seelog"
 	"github.com/fatih/color"

@@ -3,7 +3,7 @@
 - Authors: Xavier Vello
 - Date: 2018-01-11
 - Status: draft
-- [Discussion](https://github.com/DataDog/datadog-agent/pull/1055)
+- [Discussion](https://github.com/ninnemana/datadog-agent/pull/1055)
 
 ## Overview
 

@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/DataDog/datadog-agent/pkg/ebpf"
+	"github.com/ninnemana/datadog-agent/pkg/ebpf"
 )
 
 func main() {

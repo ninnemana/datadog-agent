@@ -10,8 +10,8 @@ package containers
 import (
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/aggregator/mocksender"
-	cmetrics "github.com/DataDog/datadog-agent/pkg/util/containers/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/mocksender"
+	cmetrics "github.com/ninnemana/datadog-agent/pkg/util/containers/metrics"
 )
 
 func TestReportIOMetrics(t *testing.T) {

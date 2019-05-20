@@ -10,9 +10,9 @@
 package util
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/hostname"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/hostname"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 func getContainerHostname() (bool, string) {

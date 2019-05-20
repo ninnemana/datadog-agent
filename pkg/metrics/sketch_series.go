@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"github.com/DataDog/agent-payload/gogen"
-	"github.com/DataDog/datadog-agent/pkg/aggregator/ckey"
-	"github.com/DataDog/datadog-agent/pkg/quantile"
-	"github.com/DataDog/datadog-agent/pkg/serializer/marshaler"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/ckey"
+	"github.com/ninnemana/datadog-agent/pkg/quantile"
+	"github.com/ninnemana/datadog-agent/pkg/serializer/marshaler"
 )
 
 // A SketchSeries is a timeseries of quantile sketches.

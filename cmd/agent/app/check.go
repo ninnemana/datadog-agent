@@ -16,15 +16,15 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/common"
-	"github.com/DataDog/datadog-agent/pkg/aggregator"
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery"
-	"github.com/DataDog/datadog-agent/pkg/collector"
-	"github.com/DataDog/datadog-agent/pkg/collector/check"
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/serializer"
-	"github.com/DataDog/datadog-agent/pkg/status"
-	"github.com/DataDog/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/cmd/agent/common"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery"
+	"github.com/ninnemana/datadog-agent/pkg/collector"
+	"github.com/ninnemana/datadog-agent/pkg/collector/check"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/serializer"
+	"github.com/ninnemana/datadog-agent/pkg/status"
+	"github.com/ninnemana/datadog-agent/pkg/util"
 )
 
 var (
@@ -285,7 +285,7 @@ func getMetricsData(agg *aggregator.BufferedAggregator) map[string]interface{} {
 	series := agg.GetSeries()
 	if len(series) != 0 {
 		// Workaround to get the raw sequence of metrics, see:
-		// https://github.com/DataDog/datadog-agent/blob/b2d9527ec0ec0eba1a7ae64585df443c5b761610/pkg/metrics/series.go#L109-L122
+		// https://github.com/ninnemana/datadog-agent/blob/b2d9527ec0ec0eba1a7ae64585df443c5b761610/pkg/metrics/series.go#L109-L122
 		var data map[string]interface{}
 		sj, _ := json.Marshal(series)
 		json.Unmarshal(sj, &data)

@@ -68,7 +68,7 @@ Create the ConfigMap accordingly:
 `kubectl create configmap dca-yaml --from-file datadog-cluster.yaml`
 
 **Step 4** - Once the secret is created, create the Datadog Cluster Agent along with its service.
-Don't forget to add your `<DD_API_KEY>` in the manifest of the Datadog Cluster Agent. Both manifests can be found in the [manifest directory](https://github.com/DataDog/datadog-agent/tree/master/Dockerfiles/manifests)
+Don't forget to add your `<DD_API_KEY>` in the manifest of the Datadog Cluster Agent. Both manifests can be found in the [manifest directory](https://github.com/ninnemana/datadog-agent/tree/master/Dockerfiles/manifests)
 Run: 
 
 `kubectl apply -f Dockerfiles/manifests/cluster-agent/datadog-cluster-agent_service.yaml`

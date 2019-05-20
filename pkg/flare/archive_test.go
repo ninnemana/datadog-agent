@@ -19,10 +19,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/api/response"
-	"github.com/DataDog/datadog-agent/cmd/agent/common"
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/integration"
-	"github.com/DataDog/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/cmd/agent/api/response"
+	"github.com/ninnemana/datadog-agent/cmd/agent/common"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/integration"
+	"github.com/ninnemana/datadog-agent/pkg/config"
 	"github.com/stretchr/testify/assert"
 )
 

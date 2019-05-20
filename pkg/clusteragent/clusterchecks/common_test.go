@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/DataDog/datadog-agent/pkg/autodiscovery/scheduler"
+	"github.com/ninnemana/datadog-agent/pkg/autodiscovery/scheduler"
 )
 
 type lockable interface {

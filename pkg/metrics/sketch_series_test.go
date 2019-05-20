@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/DataDog/datadog-agent/pkg/quantile"
+	"github.com/ninnemana/datadog-agent/pkg/quantile"
 
 	"github.com/DataDog/agent-payload/gogen"
-	"github.com/DataDog/datadog-agent/pkg/aggregator/ckey"
+	"github.com/ninnemana/datadog-agent/pkg/aggregator/ckey"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

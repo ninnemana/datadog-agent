@@ -8,9 +8,9 @@ package metadata
 import (
 	"fmt"
 
-	"github.com/DataDog/datadog-agent/pkg/metadata/v5"
-	"github.com/DataDog/datadog-agent/pkg/serializer"
-	"github.com/DataDog/datadog-agent/pkg/util"
+	"github.com/ninnemana/datadog-agent/pkg/metadata/v5"
+	"github.com/ninnemana/datadog-agent/pkg/serializer"
+	"github.com/ninnemana/datadog-agent/pkg/util"
 )
 
 // HostCollector fills and sends the old metadata payload used in the

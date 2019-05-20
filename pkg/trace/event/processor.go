@@ -1,8 +1,8 @@
 package event
 
 import (
-	"github.com/DataDog/datadog-agent/pkg/trace/pb"
-	"github.com/DataDog/datadog-agent/pkg/trace/sampler"
+	"github.com/ninnemana/datadog-agent/pkg/trace/pb"
+	"github.com/ninnemana/datadog-agent/pkg/trace/sampler"
 )
 
 // Processor is responsible for all the logic surrounding extraction and sampling of APM events from processed traces.

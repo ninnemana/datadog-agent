@@ -8,8 +8,8 @@ package collectors
 import (
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/tmplvar"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/tmplvar"
 )
 
 var templateVariables = map[string]struct{}{

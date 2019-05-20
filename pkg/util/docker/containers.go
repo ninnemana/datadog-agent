@@ -18,9 +18,9 @@ import (
 
 	"github.com/docker/docker/api/types"
 
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
-	"github.com/DataDog/datadog-agent/pkg/util/containers/metrics"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers/metrics"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 var healthRe = regexp.MustCompile(`\(health: (\w+)\)`)

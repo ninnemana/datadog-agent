@@ -103,7 +103,7 @@ EOD
 
 echo "Adding some aliases and login help"
 cat <<EOD | vagrant ssh
-echo 'alias goforit="cd /home/vagrant/go/src/github.com/DataDog/datadog-agent"' >> ~/.bashrc
+echo 'alias goforit="cd /home/vagrant/go/src/github.com/ninnemana/datadog-agent"' >> ~/.bashrc
 echo 'alias curl_agent="curl -s --unix-socket /opt/datadog-agent/run/nettracer.sock"'
 echo 'echo "----------------------------------------------
 Hi and welcome in the ebpf dev env, quick help:

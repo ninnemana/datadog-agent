@@ -8,7 +8,7 @@ package docker
 import (
 	"errors"
 
-	"github.com/DataDog/datadog-agent/pkg/util/containers"
+	"github.com/ninnemana/datadog-agent/pkg/util/containers"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/DataDog/datadog-agent/pkg/logs/message"
-	lineParser "github.com/DataDog/datadog-agent/pkg/logs/parser"
+	"github.com/ninnemana/datadog-agent/pkg/logs/message"
+	lineParser "github.com/ninnemana/datadog-agent/pkg/logs/parser"
 )
 
 const (

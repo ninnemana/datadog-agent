@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // NanoToUserHZDivisor holds the divisor to convert cpu.usage to the

@@ -15,7 +15,7 @@ license "Apache-2.0"
 license_file "../LICENSE"
 
 source path: '..'
-relative_path 'src/github.com/DataDog/datadog-agent'
+relative_path 'src/github.com/ninnemana/datadog-agent'
 
 build do
   # set GOPATH on the omnibus source dir for this software
@@ -45,8 +45,8 @@ build do
   # we assume the go deps are already installed before running omnibus
   if windows?
     command "inv -e six.build --install-prefix \"#{windows_safe_path(python_2_embedded)}\" --cmake-options \"-G \\\"Unix Makefiles\\\"\"", :env => env
-    command "mv six/bin/*.dll  #{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/DataDog/datadog-agent/bin/agent/"
-    command "inv -e agent.build --six-root=#{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/DataDog/datadog-agent/six --rebuild --no-development --embedded-path=#{install_dir}/embedded", env: env
+    command "mv six/bin/*.dll  #{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/ninnemana/datadog-agent/bin/agent/"
+    command "inv -e agent.build --six-root=#{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/ninnemana/datadog-agent/six --rebuild --no-development --embedded-path=#{install_dir}/embedded", env: env
     command "inv -e systray.build --rebuild --no-development", env: env
   else
     command "inv -e six.build --install-prefix \"#{install_dir}/embedded\" --cmake-options '-DCMAKE_CXX_FLAGS:=\"-D_GLIBCXX_USE_CXX11_ABI=0\" -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_FIND_FRAMEWORK:STRING=NEVER'", :env => env
@@ -85,7 +85,7 @@ build do
     command "invoke trace-agent.build", :env => env
 
     if windows?
-      copy 'bin/trace-agent/trace-agent.exe', "#{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/DataDog/datadog-agent/bin/agent"
+      copy 'bin/trace-agent/trace-agent.exe', "#{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/ninnemana/datadog-agent/bin/agent"
     else
       copy 'bin/trace-agent/trace-agent', "#{install_dir}/embedded/bin"
     end
@@ -96,7 +96,7 @@ build do
   command "invoke -e process-agent.build", :env => env
 
   if windows?
-    copy 'bin/process-agent/process-agent.exe', "#{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/DataDog/datadog-agent/bin/agent"
+    copy 'bin/process-agent/process-agent.exe', "#{Omnibus::Config.source_dir()}/datadog-agent/src/github.com/ninnemana/datadog-agent/bin/agent"
   else
     copy 'bin/process-agent/process-agent', "#{install_dir}/embedded/bin"
     copy 'bin/network-tracer/network-tracer', "#{install_dir}/embedded/bin"

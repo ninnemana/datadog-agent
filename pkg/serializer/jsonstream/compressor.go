@@ -13,7 +13,7 @@ import (
 	"errors"
 	"expvar"
 
-	"github.com/DataDog/datadog-agent/pkg/util/compression"
+	"github.com/ninnemana/datadog-agent/pkg/util/compression"
 )
 
 const (

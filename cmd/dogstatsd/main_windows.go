@@ -8,8 +8,8 @@ package main
 import (
 	"path/filepath"
 
-	"github.com/DataDog/datadog-agent/pkg/config"
-	"github.com/DataDog/datadog-agent/pkg/util/winutil"
+	"github.com/ninnemana/datadog-agent/pkg/config"
+	"github.com/ninnemana/datadog-agent/pkg/util/winutil"
 )
 
 var defaultLogFile = "c:\\programdata\\datadog\\logs\\dogstatsd.log"

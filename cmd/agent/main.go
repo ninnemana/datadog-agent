@@ -13,7 +13,7 @@ package main
 import (
 	"os"
 
-	"github.com/DataDog/datadog-agent/cmd/agent/app"
+	"github.com/ninnemana/datadog-agent/cmd/agent/app"
 )
 
 func main() {

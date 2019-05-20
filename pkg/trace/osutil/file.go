@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/DataDog/datadog-agent/pkg/trace/flags"
-	"github.com/DataDog/datadog-agent/pkg/util/log"
+	"github.com/ninnemana/datadog-agent/pkg/trace/flags"
+	"github.com/ninnemana/datadog-agent/pkg/util/log"
 )
 
 // Exists reports whether the given path exists.
